@@ -1,6 +1,7 @@
 import Header from "../Header/Header";
 import "./Home.css";
 import Card from "react-bootstrap/Card";
+import cinema from "../images/qacinema.jpg";
 
 const HomePage = () => {
   return (
@@ -26,6 +27,10 @@ const HomePage = () => {
             <Card.Link href="#">Book Ticket Now!!!</Card.Link>
           </Card.Body>
         </Card>
+        <div></div>
+        <div>
+          <img id="cinema_img" src={cinema} alt="qacinema"></img>
+        </div>
       </body>
     </>
   );

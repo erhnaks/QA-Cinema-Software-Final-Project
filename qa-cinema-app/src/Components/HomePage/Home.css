@@ -18,3 +18,9 @@
   font-size: x-large;
   font-style: italic;
 }
+
+#cinema_img {
+  width: 400px;
+  height: auto;
+  float: right;
+}
