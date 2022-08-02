@@ -2,13 +2,16 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import  "./Header.css";
+import "./Header.css";
+import logo from "../images/logo.png"
 
 const Header = () => {
   return (
     <header>
       <>
+      <img id="logo" src={logo} alt="www.qacinema.com" />
         <h1 id="header_h1">QA Cinema</h1>
+        
 
         <Navbar bg="dark" variant="dark">
           <Container>
