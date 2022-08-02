@@ -7,10 +7,12 @@
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-#logo{
-  display:block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 100px;
-        height: 100px;
+#logo {
+  width: 130px;
+}
+
+@media screen and (max-width: 768px) {
+  #header_h1 {
+    display: none;
+  }
 }

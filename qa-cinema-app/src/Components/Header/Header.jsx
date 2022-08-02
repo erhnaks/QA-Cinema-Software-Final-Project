@@ -3,17 +3,18 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import "./Header.css";
-import logo from "../images/logo.png"
+import logo from "../images/logo.png";
 
 const Header = () => {
   return (
-    <header>
+    <header className="container-fluid">
       <>
-      <img id="logo" src={logo} alt="www.qacinema.com" />
-        <h1 id="header_h1">QA Cinema</h1>
-        
+        <div className="d-flex flex-row justify-content-center align-items-center">
+          <img className="mx-4" id="logo" src={logo} alt="www.qacinema.com" />
+          <h1 id="header_h1">QA Cinema</h1>
+        </div>
 
-        <Navbar bg="dark" variant="dark">
+        <Navbar className="row" bg="dark" variant="dark">
           <Container>
             <Navbar.Brand href="#home">Home</Navbar.Brand>
             <Nav className="me-auto">
