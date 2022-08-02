@@ -12,10 +12,10 @@ const HomePage = () => {
         <Container>
           <Navbar.Brand href="#home">Home</Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="#home">Listing</Nav.Link>
+            <Nav.Link href="#home">Listings</Nav.Link>
             <Nav.Link href="#features">Booking</Nav.Link>
-            <Nav.Link href="#pricing">About</Nav.Link>
             <Nav.Link href="#pricing">Classification</Nav.Link>
+            <Nav.Link href="#pricing">About Us</Nav.Link>
             <Nav.Link href="#pricing">Contact Us</Nav.Link>
           </Nav>
         </Container>
