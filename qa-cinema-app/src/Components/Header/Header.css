@@ -16,3 +16,7 @@
     display: none;
   }
 }
+
+.container-fluid {
+  background-color: #cad69caa;
+}

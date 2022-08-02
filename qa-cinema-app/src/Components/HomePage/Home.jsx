@@ -4,7 +4,7 @@ import Card from "react-bootstrap/Card";
 import cinema from "../images/qacinema.jpg";
 import CarouselPage from "./Carousel";
 import movie1 from "../images/movie1.jpg";
-import movie2 from "../images/movie2.png";
+import movie2 from "../images/movie2.jpeg";
 import movie3 from "../images/movie3.jpg";
 import movie4 from "../images/movie4.jpg";
 
@@ -13,6 +13,15 @@ const HomePage = () => {
     <>
       <Header></Header>;
       <body className="body">
+        <br></br>
+        <CarouselPage
+          image1={movie1}
+          image2={movie2}
+          image3={movie3}
+          image4={movie4}
+        />
+        <br></br>
+
         <div class="row">
           <Card className="card-body" style={{ width: "18rem" }}>
             <Card.Body>
@@ -40,12 +49,6 @@ const HomePage = () => {
         </div>
         <br></br>
         <br></br>
-        <CarouselPage
-          image1={movie1}
-          image2={movie2}
-          image3={movie3}
-          image4={movie4}
-        />
       </body>
     </>
   );

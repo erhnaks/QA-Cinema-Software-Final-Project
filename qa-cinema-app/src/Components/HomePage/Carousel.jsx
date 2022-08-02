@@ -6,7 +6,7 @@ import {
   CarouselIndicators,
   CarouselCaption,
 } from "reactstrap";
-import "./Carousel.css"
+import "./Carousel.css";
 
 const CarouselPage = ({ image1, image2, image3, image4 }) => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -16,22 +16,22 @@ const CarouselPage = ({ image1, image2, image3, image4 }) => {
     {
       src: image1,
       altText: "button to show films",
-      caption: "The Dark Knight",
+      caption: "EXODUS GODS AND KINGS ",
     },
     {
       src: image2,
       altText: "Slide 2",
-      caption: "Back to the Future",
+      caption: "INTERSTELLAR",
     },
     {
       src: image3,
       altText: "Slide 3",
-      caption: "Light Year",
+      caption: "AQUAMAN",
     },
     {
       src: image4,
       altText: "Slide 3",
-      caption: "Pulp Fiction",
+      caption: "TRANSFORMERS",
     },
   ];
 
@@ -59,13 +59,14 @@ const CarouselPage = ({ image1, image2, image3, image4 }) => {
         onExited={() => setAnimating(false)}
         key={item.src}
       >
-        <img className="image-carousel"
+        <img
+          className="image-carousel"
           src={item.src}
           alt={item.altText}
-          style={{ marginLeft: "500px", width: "900px" }}
+          style={{ width: "100%" }}
         />
         <CarouselCaption captionText={item.caption} />
-        {/* Movie Name={item.caption} */}
+        Movie Title={item.caption}
       </CarouselItem>
     );
   });
