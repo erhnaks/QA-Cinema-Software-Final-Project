@@ -23,6 +23,16 @@
   width: 900px;
   height: auto;
   float: right;
-  margin-left: 500px;
+  margin-left: 40px;
   border-radius: 40px;
+}
+
+.card-body {
+  margin-left: 5%;
+  width: 260px;
+  /* background-color: rgba(11, 172, 19, 0.58); */
+}
+
+.body {
+  background-color: #004050;
 }

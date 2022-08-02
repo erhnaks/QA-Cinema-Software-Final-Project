@@ -12,15 +12,16 @@ const HomePage = () => {
   return (
     <>
       <Header></Header>;
-      <body>
+      <body className="body">
         <div class="row">
-          <Card style={{ width: "18rem" }}>
+          <Card className="card-body" style={{ width: "18rem" }}>
             <Card.Body>
               <Card.Title id="home_title_card">
                 Welcome to QA Cinema!
               </Card.Title>
+              <p></p>
               <Card.Subtitle className="mb-2 text-muted">
-                Home of the latest and greatest movies.{" "}
+                Home of the latest and greatest movies. <p></p>
               </Card.Subtitle>
               <Card.Text id="home_page_card">
                 QA cinema is dedicated to bringing movies to life through our
