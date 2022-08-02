@@ -2,6 +2,11 @@ import Header from "../Header/Header";
 import "./Home.css";
 import Card from "react-bootstrap/Card";
 import cinema from "../images/qacinema.jpg";
+import CarouselPage from "./Carousel";
+import movie1 from "../images/movie1.jpg";
+import movie2 from "../images/movie2.png";
+import movie3 from "../images/movie3.jpg";
+import movie4 from "../images/movie4.jpg";
 
 const HomePage = () => {
   return (
@@ -32,6 +37,14 @@ const HomePage = () => {
           </Card>
           <img id="cinema_img" src={cinema} alt="qacinema"></img>
         </div>
+        <br></br>
+        <br></br>
+        <CarouselPage
+          image1={movie1}
+          image2={movie2}
+          image3={movie3}
+          image4={movie4}
+        />
       </body>
     </>
   );
