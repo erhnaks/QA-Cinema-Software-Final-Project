@@ -1,26 +1,34 @@
-import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
+import Header from "../Header/Header";
 import "./Home.css";
+import Card from "react-bootstrap/Card";
 
 const HomePage = () => {
   return (
     <>
-      <h1 id="header">QA Cinema</h1>
-
-      <Navbar bg="dark" variant="dark">
-        <Container>
-          <Navbar.Brand href="#home">Home</Navbar.Brand>
-          <Nav className="me-auto">
-            <Nav.Link href="#home">Listings</Nav.Link>
-            <Nav.Link href="#features">Booking</Nav.Link>
-            <Nav.Link href="#pricing">Classifications</Nav.Link>
-            <Nav.Link href="#pricing">About Us</Nav.Link>
-            <Nav.Link href="#pricing">Contact Us</Nav.Link>
-          </Nav>
-        </Container>
-      </Navbar>
+      <Header></Header>;
+      <body>
+        <Card style={{ width: "18rem" }}>
+          <Card.Body>
+            <Card.Title id="home_title_card">Welcome to QA Cinema!</Card.Title>
+            <Card.Subtitle className="mb-2 text-muted">
+              Home of the latest and greatest movies.{" "}
+            </Card.Subtitle>
+            <Card.Text id="home_page_card">
+              QA cinema is dedicated to bringing movies to life through our
+              innovative sound system and high-quality screens. Watch the latest
+              movies with your feet up in our new renovated screens. Our highly
+              rated screens include recliner seating and cupholders as well as a
+              portable tray. Sweet or sour? We have everything taken care of to
+              ensure a great experience at QA cinema. Book now to experience the
+              magic.
+            </Card.Text>
+            <Card.Link href="#">Movies</Card.Link>
+            <Card.Link href="#">Book Ticket Now!!!</Card.Link>
+          </Card.Body>
+        </Card>
+      </body>
     </>
   );
 };
+
 export default HomePage;
