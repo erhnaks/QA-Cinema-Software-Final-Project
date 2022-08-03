@@ -1,4 +1,4 @@
-// import Container from 'react-bootstrap/Container';
+import Container from 'react-bootstrap/Container';
 // import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Header from "../Header/Header";
@@ -9,6 +9,8 @@ return(
 <>
    <Header></Header>
    <Navbar></Navbar>
+
+  <div className="container"> 
    <h1>About Us</h1>  
 
   <div>
@@ -34,8 +36,13 @@ return(
   <div>
     {/* Location */}
     International House, 1 St Katharine's Way, London E1W 1UN
-
+    <div>
+        <iframe width="400" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=e1w1UN&t=&z=15&ie=UTF8&iwloc=&output=embed" 
+        frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+    </div>
   </div> 
+
+  </div>
 
 </>  
 
