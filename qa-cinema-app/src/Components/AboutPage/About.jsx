@@ -1,7 +1,8 @@
-import Container from 'react-bootstrap/Container';
+//import Container from 'react-bootstrap/Container';
 // import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Header from "../Header/Header";
+import "./about.css";
 
 
 const AboutPage = () => {
@@ -33,12 +34,13 @@ return(
     {/* Reviews */}
   </div>  
 
-  <div>
+  <div className="card col-4 p-3" id="qa-location">
     {/* Location */}
+    <h3>Where to Find Us</h3>
     International House, 1 St Katharine's Way, London E1W 1UN
     <div>
         <iframe width="400" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=e1w1UN&t=&z=15&ie=UTF8&iwloc=&output=embed" 
-        frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+        frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title='Location'></iframe>
     </div>
   </div> 
 
