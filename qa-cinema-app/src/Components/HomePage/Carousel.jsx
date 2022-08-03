@@ -65,7 +65,7 @@ const CarouselPage = ({ image1, image2, image3, image4 }) => {
           alt={item.altText}
           style={{ width: "100%" }}
         />
-        <CarouselCaption captionText={item.caption} />
+        <CarouselCaption className="carousel-caption" captionText={item.caption} />
         Movie Title={item.caption}
       </CarouselItem>
     );
