@@ -2,6 +2,8 @@
 // import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Header from "../Header/Header";
+import Footer from "../Footer/Footer";
+
 import "./about.css";
 
 
@@ -95,7 +97,7 @@ Grab a popcorn and a soft drink, cozy up in our recliners and couches. Going to 
 
 
   </div>
-
+  <Footer></Footer>
 </>  
 
 )
