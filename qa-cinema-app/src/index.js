@@ -1,16 +1,20 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-import HomePage from './Components/HomePage/Home';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import HomePage from "./Components/HomePage/Home";
+import "bootstrap/dist/css/bootstrap.min.css";
+import AboutPage from "./Components/AboutPage/About";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <App />
-    <HomePage/>
+    <HomePage />
+    <AboutPage />
+  
   </React.StrictMode>
 );
 

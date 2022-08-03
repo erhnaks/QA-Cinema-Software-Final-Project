@@ -8,6 +8,7 @@ import movie2 from "../images/movie2.jpeg";
 import movie3 from "../images/movie3.jpg";
 import movie4 from "../images/movie4.jpg";
 
+
 const HomePage = () => {
   return (
     <>
