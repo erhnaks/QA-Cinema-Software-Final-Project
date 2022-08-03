@@ -16,12 +16,12 @@ const Header = () => {
 
         <Navbar className="row" bg="dark" variant="dark">
           <Container>
-            <Navbar.Brand href="#home">Home</Navbar.Brand>
+            <Navbar.Brand href="/">Home</Navbar.Brand>
             <Nav className="me-auto">
               <Nav.Link href="#home">Listings</Nav.Link>
               <Nav.Link href="#features">Booking</Nav.Link>
               <Nav.Link href="#pricing">Classifications</Nav.Link>
-              <Nav.Link href="#pricing">About Us</Nav.Link>
+              <Nav.Link href="/about">About Us</Nav.Link>
               <Nav.Link href="#pricing">Contact Us</Nav.Link>
             </Nav>
           </Container>
