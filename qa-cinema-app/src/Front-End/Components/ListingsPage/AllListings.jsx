@@ -1,5 +1,6 @@
 import React from "react";
-import ListingMovie from "./ListingMovie";
+import ListingMovie from "../ListingsPage/ListingMovie";
+
 
 const AllListings = () => {
   return (
