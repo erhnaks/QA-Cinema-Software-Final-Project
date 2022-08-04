@@ -1,6 +1,6 @@
 import React from "react";
 import ListingMovie from "../ListingsPage/ListingMovie";
-import data from "../../../Resources/data/Movies.json";
+import data from "../../../Resources/data/movie.json";
 
 const AllListings = () => {
   return (
@@ -29,8 +29,6 @@ const AllListings = () => {
                 director={movie.director}
                 actors={movie.actors}
               />
-              // If bug occurs please check data... ID at the bottom and
-              description doesnt called"
             </div>
           ))}
         </div>

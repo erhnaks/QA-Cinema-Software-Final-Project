@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import ContactUs from "./Front-End/Components/ContactUs/ContactUsPage";
 import HomePage from "./Front-End/Components/HomePage/Home";
 import AboutPage from "./Front-End/Components/AboutPage/About";
-import ListingMovie from "./Front-End/Components/ListingsPage/ListingMovie";
+import AllListings from "./Front-End/Components/ListingsPage/AllListings";
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
           <Route exact path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/contactUs" element={<ContactUs />} />
-          <Route path="/listings" element={<ListingMovie />} />
+          <Route path="/listings" element={<AllListings />} />
         </Routes>
       </Router>
     </div>
