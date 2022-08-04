@@ -37,3 +37,5 @@ const AllListings = () => {
     </React.Fragment>
   );
 };
+
+export default AllListings;
