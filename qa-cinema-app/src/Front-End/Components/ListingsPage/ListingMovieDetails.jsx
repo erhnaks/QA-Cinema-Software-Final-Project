@@ -62,3 +62,5 @@ const ListingMovieDetails = ({
     </Fragment>
   );
 };
+
+export default ListingMovieDetails;

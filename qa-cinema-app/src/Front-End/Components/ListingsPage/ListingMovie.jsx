@@ -1,5 +1,5 @@
 import { Card, CardBody, CardTitle, CardSubtitle, CardImg } from "reactstrap";
-import "../Movies.css";
+import ListingDetails from "../ListingsPage/ListingMovieDetails";
 
 const ListingMovie = (props) => {
   return (
