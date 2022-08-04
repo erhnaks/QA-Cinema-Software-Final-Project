@@ -20,7 +20,7 @@ const ListingMovieDetails = ({
   const toggle = () => setModal(!modal);
 
   return (
-    <>
+    <Fragment>
       <CardLink className="btn btn-primary" onclick={toggle}>
         {" "}
         Movie Details
@@ -59,6 +59,6 @@ const ListingMovieDetails = ({
           </ModalFooter>
         </Modal>
       </div>
-    </>
+    </Fragment>
   );
 };
