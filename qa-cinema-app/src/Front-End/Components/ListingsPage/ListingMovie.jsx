@@ -1,4 +1,5 @@
 import { Card, CardBody, CardTitle, CardSubtitle, CardImg } from "reactstrap";
+import "../Movies.css";
 
 const ListingMovie = (props) => {
   return (
@@ -15,12 +16,15 @@ const ListingMovie = (props) => {
         </CardSubtitle>
         <hr />
         <div className="col-md-12">
-          title={props.title}
-          runtime={props.runtime}
-          rating={props.rating}
-          poster={props.poster}
-          director={props.director}
-          actors={props.actors}
+          <ListingDetails
+            id={props.id}
+            title={props.title}
+            runtime={props.runtime}
+            rating={props.rating}
+            poster={props.poster}
+            director={props.director}
+            actors={props.actors}
+          />
         </div>
       </CardBody>
     </Card>
