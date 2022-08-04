@@ -9,11 +9,10 @@ import movie3 from "../images/movie3.jpg";
 import movie4 from "../images/movie4.jpg";
 import Footer from "../Footer/Footer";
 
-
 const HomePage = () => {
   return (
     <>
-      <Header></Header>;
+      <Header></Header>
       <body className="body">
         <br></br>
         <CarouselPage
