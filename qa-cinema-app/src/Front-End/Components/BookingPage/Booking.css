@@ -49,6 +49,10 @@
   background-color: green;
 }
 
+.seat.concession {
+    background-color: rgb(255, 242, 0);
+  }
+
 .seat.sold {
   background-color: #fff;
 }

@@ -29,6 +29,14 @@ const Booking = () => {
                         <small>Available</small>
                     </li>
                     <li>
+                        <div className="seat concession"></div>
+                        <small>Concession</small>
+                    </li>
+                    <li>
+                        <div className="seat sold"></div>
+                        <small>Disabled</small>
+                    </li>
+                    <li>
                         <div className="seat selected"></div>
                         <small>Selected</small>
                     </li>
@@ -36,6 +44,7 @@ const Booking = () => {
                         <div className="seat sold"></div>
                         <small>Sold</small>
                     </li>
+                    
                 </ul>
                 <div className="row d-flex justify-content-center align-items-center">
                     <div className="booking-container col-5">
