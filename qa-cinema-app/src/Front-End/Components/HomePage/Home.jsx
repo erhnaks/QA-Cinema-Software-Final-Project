@@ -33,7 +33,7 @@ const HomePage = () => {
               <Card.Subtitle className="mb-2 text-muted">
                 Home of the latest and greatest movies. <p></p>
               </Card.Subtitle>
-              <Card.Text id="home_page_card">
+              <Card.Text className="home_page_card">
                 QA cinema is dedicated to bringing movies to life through our
                 innovative sound system and high-quality screens. Watch the
                 latest movies with your feet up in our new renovated screens.
@@ -42,8 +42,8 @@ const HomePage = () => {
                 taken care of to ensure a great experience at QA cinema. Book
                 now to experience the magic.
               </Card.Text>
-              <Card.Link href="#">Movies</Card.Link>
-              <Card.Link href="#">Book Ticket Now!!!</Card.Link>
+              <Card.Link href="listings">Movies</Card.Link>
+              <Card.Link href="/bookings">Book Ticket Now!!!</Card.Link>
             </Card.Body>
           </Card>
           <img id="cinema_img" src={cinema} alt="qacinema"></img>
