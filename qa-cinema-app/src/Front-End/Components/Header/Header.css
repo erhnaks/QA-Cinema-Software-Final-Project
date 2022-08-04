@@ -1,0 +1,22 @@
+#header_h1 {
+  text-align: center;
+  font-size: 70px;
+  font-weight: bolder;
+  color: #004050;
+  font-style: italic;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#logo {
+  width: 130px;
+}
+
+@media screen and (max-width: 768px) {
+  #header_h1 {
+    display: none;
+  }
+}
+
+.container-fluid {
+  background-color: #cad69caa;
+}
