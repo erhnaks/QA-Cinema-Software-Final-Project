@@ -45,6 +45,7 @@ const ListingMovieDetails = ({
                 <hr />
                 {/* <h5>Description</h5> */}
                 <h6>{description}</h6>
+                <hr></hr>
                 <p id="movie-director">Directed By {director}</p>
                 <h5>Starring: </h5>
                 <br></br>
@@ -52,13 +53,14 @@ const ListingMovieDetails = ({
                   <p id="movie-actor">{actor}</p>
                 ))}
                 <br />
+                <hr></hr>
                 <p id="movie-runtime">Runtime: {runtime}</p>
                 <p id="movie-rating">Rating: {rating}</p>
               </div>
             </div>
           </ModalBody>
           <ModalFooter id="movie-modal-footer">
-            <button onClick={toggle} className="btn btn-outline-danger">
+            <button onClick={toggle} className="btn btn-info">
               Go Back
             </button>
           </ModalFooter>

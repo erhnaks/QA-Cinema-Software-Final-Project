@@ -38,6 +38,8 @@ const AllListings = () => {
           ))}
         </div>
       </div>
+      <br></br>
+      <br></br>
       <Footer></Footer>
     </React.Fragment>
   );
