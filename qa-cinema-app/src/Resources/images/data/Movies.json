@@ -1,0 +1,49 @@
+[
+  {
+    "title": "Aquaman",
+    "runtime": "02:23",
+    "rating": "12A",
+    "img": "",
+    "showtime": "",
+    "description": "The reluctant King of Atlantis is torn between his two homes as surface dwellers and the citizens of Atlantis collide.",
+    "director": "James Wan",
+    "actors": ["Jason Mamoa", "Amber Heard", "Nicole Kidman", "Patrick Wilson"],
+    "id": "aqmv12345"
+  },
+
+  {
+    "title": "Interstellar",
+    "runtime": "02:49",
+    "rating": "12A",
+    "img": "",
+    "showtime": "",
+    "description": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+    "director": "Christopher Nolan",
+    "actors": ["Matthew McConaughey", "Anne Hathaway"],
+    "id": "inmv12121"
+  },
+
+  {
+    "title": "Exodus gods and kings",
+    "runtime": "02:30",
+    "rating": "12A",
+    "img": "",
+    "showtime": "",
+    "description": "The defiant leader Moses rises up against Egyptian Pharaoh Ramses II, setting six hundred thousand slaves on a monumental journey of escape from Egypt and its terrifying cycle of deadly plagues",
+    "director": "Ridley Scott",
+    "actors": ["Adam Cooper", "Bill Collage"],
+    "id": "exmv23232"
+  },
+
+  {
+    "title": "Transformers",
+    "runtime": "02:24",
+    "rating": "12A",
+    "img": "",
+    "showtime": "",
+    "description": "An ancient struggle between two Cybertronian races, the heroic Autobots and the evil Decepticons, comes to Earth, with a clue to the ultimate power held by a teenager.",
+    "director": "Michael Bay",
+    "actors": ["Shia LeBeouf", "Megan Fox", "Josh Duhamel"],
+    "id": "trmv34343"
+  }
+]
