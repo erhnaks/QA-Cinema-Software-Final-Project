@@ -4,7 +4,6 @@ import {
   CarouselItem,
   CarouselControl,
   CarouselIndicators,
-  CarouselCaption,
 } from "reactstrap";
 import "./Carousel.css";
 
@@ -16,22 +15,18 @@ const CarouselPage = ({ image1, image2, image3, image4 }) => {
     {
       src: image1,
       altText: "button to show films",
-      caption: "EXODUS GODS AND KINGS ",
     },
     {
       src: image2,
       altText: "Slide 2",
-      caption: "INTERSTELLAR",
     },
     {
       src: image3,
       altText: "Slide 3",
-      caption: "AQUAMAN",
     },
     {
       src: image4,
       altText: "Slide 3",
-      caption: "TRANSFORMERS",
     },
   ];
 
@@ -65,8 +60,6 @@ const CarouselPage = ({ image1, image2, image3, image4 }) => {
           alt={item.altText}
           style={{ width: "100%" }}
         />
-        <CarouselCaption className="carousel-caption" captionText={item.caption} />
-        Movie Title={item.caption}
       </CarouselItem>
     );
   });
