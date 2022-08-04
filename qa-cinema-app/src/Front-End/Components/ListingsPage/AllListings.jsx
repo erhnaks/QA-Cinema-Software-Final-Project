@@ -1,5 +1,6 @@
 import React from "react";
 import ListingMovie from "../ListingsPage/ListingMovie";
+import data from "../../../Resources/
 
 
 const AllListings = () => {
