@@ -29,6 +29,7 @@ const AllListings = () => {
                 runtime={movie.runtime}
                 rating={movie.rating}
                 poster={movie.img}
+                showtime={movie.showtime}
                 description={movie.description}
                 director={movie.director}
                 actors={movie.actors}

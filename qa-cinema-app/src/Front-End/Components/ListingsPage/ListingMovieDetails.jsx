@@ -12,8 +12,10 @@ const ListingMovieDetails = ({
   title,
   runtime,
   rating,
-  director,
   poster,
+  showtime,
+  description,
+  director,
   actors,
 }) => {
   const [modal, setModal] = useState(false);
@@ -21,7 +23,7 @@ const ListingMovieDetails = ({
 
   return (
     <Fragment>
-      <CardLink className="btn btn-primary" onclick={toggle}>
+      <CardLink className="btn btn-primary" onClick={toggle}>
         {" "}
         Movie Details
       </CardLink>
@@ -41,8 +43,11 @@ const ListingMovieDetails = ({
 
               <div className="col-md-12">
                 <hr />
-                <p id="movie-director">Directed by {director}</p>
-                <h6>The main cast: </h6>
+                {/* <h5>Description</h5> */}
+                <h6>{description}</h6>
+                <p id="movie-director">Directed By {director}</p>
+                <h5>Starring: </h5>
+                <br></br>
                 {actors.map((actor) => (
                   <p id="movie-actor">{actor}</p>
                 ))}

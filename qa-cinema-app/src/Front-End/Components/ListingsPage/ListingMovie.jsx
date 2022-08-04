@@ -16,12 +16,13 @@ const ListingMovie = (props) => {
         </CardSubtitle>
         <hr />
         <div className="col-md-12">
-          <ListingDetails
-            id={props.id}
+          <ListingDetails id={props.id}
             title={props.title}
             runtime={props.runtime}
             rating={props.rating}
             poster={props.poster}
+            showtime={props.showtime}
+            description={props.description}
             director={props.director}
             actors={props.actors}
           />
