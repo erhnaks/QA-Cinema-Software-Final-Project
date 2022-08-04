@@ -3,7 +3,7 @@ import { Card, CardBody, CardTitle, CardSubtitle, CardImg } from "reactstrap";
 const ListingMovie = (props) => {
   return (
     <Card id="ListingMovie-card">
-      <CardImg src={props.poster} id="ListingMovie-card" />
+      <CardImg src={props.poster} id="ListingMovie-card-img" />
       <CardBody>
         <CardTitle id="ListingMovie-title">
           <h4>{props.title}</h4>

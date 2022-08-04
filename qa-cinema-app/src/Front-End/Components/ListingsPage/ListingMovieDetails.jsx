@@ -32,8 +32,8 @@ const ListingMovieDetails = ({
           dialogClassName="modal-dialog"
           isOpen={modal}
         >
-          <ModalHeader id="modal-header">{title}</ModalHeader>
-          <ModalBody id="modal-body">
+          <ModalHeader id="movie-modal-header">{title}</ModalHeader>
+          <ModalBody id="movie-modal-body">
             <div class="row-md">
               <div className="col-md-12" id="modal-image">
                 <img src={poster} alt={title} width="30%" height="30%" />
@@ -41,18 +41,18 @@ const ListingMovieDetails = ({
 
               <div className="col-md-12">
                 <hr />
-                <p id="director">Directed by {director}</p>
+                <p id="movie-director">Directed by {director}</p>
                 <h6>The main cast: </h6>
                 {actors.map((actor) => (
-                  <p id="cast">{actor}</p>
+                  <p id="movie-actor">{actor}</p>
                 ))}
                 <br />
-                <p id="runtime">Runtime: {runtime}</p>
-                <p id="card-rating">Rating: {rating}</p>
+                <p id="movie-runtime">Runtime: {runtime}</p>
+                <p id="movie-rating">Rating: {rating}</p>
               </div>
             </div>
           </ModalBody>
-          <ModalFooter id="modalfooter">
+          <ModalFooter id="movie-modal-footer">
             <button onClick={toggle} className="btn btn-outline-danger">
               Go Back
             </button>
