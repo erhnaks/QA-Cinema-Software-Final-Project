@@ -1,12 +1,12 @@
 import Header from "../Header/Header";
 import "./Home.css";
 import Card from "react-bootstrap/Card";
-import cinema from "../images/qacinema.jpg";
+import cinema from "../../../Resources/images/qacinema.jpg";
 import CarouselPage from "./Carousel";
-import movie1 from "../images/movie1.jpg";
-import movie2 from "../images/movie2.jpeg";
-import movie3 from "../images/movie3.jpg";
-import movie4 from "../images/movie4.jpg";
+import movie1 from "../../../Resources/images/movie1.jpg";
+import movie2 from "../../../Resources/images/movie2.jpeg";
+import movie3 from "../../../Resources/images/movie3.jpg";
+import movie4 from "../../../Resources/images/movie4.jpg";
 import Footer from "../Footer/Footer";
 
 const HomePage = () => {
