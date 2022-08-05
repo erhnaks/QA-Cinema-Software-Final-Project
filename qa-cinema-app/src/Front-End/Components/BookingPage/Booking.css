@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body{
+  background-color: #cad69caa;
+}
+
 /* body {
   background-color: #242333;
   color: #fff;
