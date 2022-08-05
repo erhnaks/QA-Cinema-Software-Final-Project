@@ -1,5 +1,5 @@
-
-
+import "../ListingsPage/Movies.css";
+import data from "../../../Resources/data/NewMovieReleases.json";
 
 const NewReleases = () => {
   return (
