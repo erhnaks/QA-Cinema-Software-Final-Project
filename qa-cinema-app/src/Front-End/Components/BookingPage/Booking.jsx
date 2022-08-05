@@ -3,6 +3,7 @@ import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 import "./Booking.css";
 import { BookingOptions } from "./BookingOptions";
+import { useState } from "react";
 
 const Booking = () => {
 
@@ -10,8 +11,9 @@ const Booking = () => {
     // seatButton.addEventListener("click", () => {
     //     alert("Booking selected");
     // });
+    const [movieId, setMovieId] = useState();
 
-    const toggle = () => {
+    const toggle = (event) => {
 
         const movieSelected = document.getElementById("movie");
         console.log("Movie id: " + movieSelected.value);
@@ -22,7 +24,8 @@ const Booking = () => {
         const ticketSelected = document.getElementById("ticket");
         console.log("Ticket time: " + ticketSelected.value);
 
-
+        console.log(event.currentTarget.id);
+        // console.log(seatId);
     }
 
     return (
@@ -90,7 +93,7 @@ const Booking = () => {
 
                         <div className="booking-row">
                             
-                            <button className="seat disabled" onClick={toggle}></button>
+                            <button className="seat disabled" id="1A" onClick={toggle}></button>
                             <button className="seat disabled"></button>
                             <button className="seat disabled"></button>
                             <button className="seat disabled"></button>
