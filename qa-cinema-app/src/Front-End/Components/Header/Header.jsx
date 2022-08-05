@@ -21,9 +21,10 @@ const Header = () => {
               <Nav.Link href="/listings">Listings</Nav.Link>
               <Nav.Link href="/comingsoon">New Releases</Nav.Link>
               <Nav.Link href="#features">Booking</Nav.Link>
-              <Nav.Link href="#pricing">Classifications</Nav.Link>
+              <Nav.Link href="#pricing">Opening Times</Nav.Link>
               <Nav.Link href="/about">About Us</Nav.Link>
               <Nav.Link href="/contactUs">Contact Us</Nav.Link>
+              <Nav.Link href="/classifications">Classifications</Nav.Link>
             </Nav>
           </Container>
         </Navbar>
