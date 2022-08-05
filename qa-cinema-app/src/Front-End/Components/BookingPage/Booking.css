@@ -53,6 +53,10 @@
     background-color: rgb(255, 242, 0);
   }
 
+  .seat.disabled {
+    background-color: rgb(0, 21, 141);
+  }
+
 .seat.sold {
   background-color: #fff;
 }
@@ -102,7 +106,7 @@
 .screen {
   background-color: #fff;
   height: 120px;
-  width: 100%;
+  width: 85%;
   margin: 15px 0;
   transform: rotateX(-48deg);
   box-shadow: 0 3px 10px rgba(255, 255, 255, 0.7);
