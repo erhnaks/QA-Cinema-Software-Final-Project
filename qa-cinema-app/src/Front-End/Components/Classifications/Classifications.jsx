@@ -42,6 +42,11 @@ const Classifications = () => {
         </a>
       </p>
       <hr></hr>
+      <br></br>
+      <h5 className="h5-tag">
+        Please click on each classification for more information!
+      </h5>
+      <br></br>
 
       <Accordion defaultActiveKey="">
         <Accordion.Item eventKey="0">
