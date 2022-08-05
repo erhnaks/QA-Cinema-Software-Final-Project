@@ -5,6 +5,7 @@ import HomePage from "./Front-End/Components/HomePage/Home";
 import AboutPage from "./Front-End/Components/AboutPage/About";
 import AllListings from "./Front-End/Components/ListingsPage/AllListings";
 import NewReleases from "./Front-End/Components/NewReleases/NewReleases";
+import OpeningTime from "./Front-End/Components/OpeningTime/OpeningTime";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/about" element={<AboutPage />} />
           <Route path="/contactUs" element={<ContactUs />} />
           <Route path="/listings" element={<AllListings />} />
+          <Route path="/openingtime" element={<OpeningTime />} />
           <Route path="/comingsoon" element={<NewReleases />} />
         </Routes>
       </Router>
