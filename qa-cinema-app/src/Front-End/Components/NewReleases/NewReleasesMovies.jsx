@@ -1,4 +1,5 @@
 import { Card, CardBody, CardTitle, CardSubtitle, CardImg } from "reactstrap";
+import NewReleasesMovieDetails from "./NewReleasesMovieDetails";
 
 const NewReleasesMovies = (props) => {
   return (
@@ -15,7 +16,7 @@ const NewReleasesMovies = (props) => {
         </CardSubtitle>
         <hr />
         <div className="col-md-12">
-          <ListingDetails
+          <NewReleasesMovieDetails
             id={props.id}
             title={props.title}
             runtime={props.runtime}

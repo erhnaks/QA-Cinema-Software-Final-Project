@@ -1,5 +1,10 @@
 import "../ListingsPage/Movies.css";
+import React from "react";
 import data from "../../../Resources/data/NewMovieReleases.json";
+import Header from "../Header/Header";
+import Footer from "../Footer/Footer";
+import NewReleasesMovies from "./NewReleasesMovies";
+import "../../Components/ListingsPage/Movies.css";
 
 const NewReleases = () => {
   return (
@@ -8,7 +13,7 @@ const NewReleases = () => {
       <div className="container">
         <div className="row-md" id="NewMovieRelease-Header">
           <hr id="hr" />
-          <h1>New Releases are coming this Bank Holiday </h1>
+          <h1>New Releases are coming this Bank Holiday!!!</h1>
           <hr id="hr" />
           <p>
             Welcome to the QA Cinema! Here you can find all of movies that are
@@ -19,7 +24,7 @@ const NewReleases = () => {
           {data.map((movie) => (
             <div className="col-md-4">
               <br />
-              <NewReleases
+              <NewReleasesMovies
                 key={movie.id}
                 title={movie.title}
                 runtime={movie.runtime}
