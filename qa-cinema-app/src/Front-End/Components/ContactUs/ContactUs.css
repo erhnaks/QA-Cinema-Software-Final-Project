@@ -1,7 +1,9 @@
-label {
-  font-size: xx-large;
-  font-weight: bolder;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+.contactUs-body {
+  background-color: #eceddb;
+}
+
+h1 {
   color: #004050;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bolder;
 }
