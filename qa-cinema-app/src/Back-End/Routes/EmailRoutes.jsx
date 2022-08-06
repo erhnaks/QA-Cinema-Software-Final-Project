@@ -2,6 +2,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const nodemailer = require("nodemailer");
 const cors = require("cors");
+const { request } = require("express");
 
 const app = express();
 
@@ -20,11 +21,32 @@ app.post("/api/form", (req, res) => {
     port: 465,
     auth: {
       user: "qacinemafoxtrot@gmail.com",
-      pass: 'bemos.2022'
+      pass: "bemos.2022",
     },
   });
 
-  
+  let mailOptions = {
+    from: data.email,
+    to: "qacinemafoxtrot@gmail.com",
+    subject: `Message from QA Cinema ${data.name}`,
+    html: `
+    <h3>Customer Informations</h3>
 
+    <ul>
+    <li>Name: ${data.name}</li>
+    <li>Surname: ${data.surname}</li>
+    <li>Email: ${data.email}</li>
+    </ul>
 
+    <h3>Customer Message</h3>
+    <p>${data.message}</p>     `,
+  };
+
+  smtpTransport.sendMail(mailOptions, (error, response) => {
+    if (error) {
+      res.send(error);
+    } else {
+      res.send("Success! ");
+    }
+  });
 });
