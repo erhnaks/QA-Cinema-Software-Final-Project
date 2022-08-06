@@ -121,6 +121,7 @@ export default class ContactUsForm extends Component {
               className="Email"
               value={this.state.email}
               onChange={this.handleEmail}
+              required
             />
           </div>
           {/* End of email item */}
@@ -137,6 +138,7 @@ export default class ContactUsForm extends Component {
               rows="10"
               value={this.state.message}
               onChange={this.handleMessage}
+              required
             ></textarea>
           </div>
           {/* End of message item */}
