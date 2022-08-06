@@ -3,6 +3,7 @@ const bodyParser = require("body-parser");
 const nodemailer = require("nodemailer");
 const cors = require("cors");
 const { request } = require("express");
+const SMTPPool = require("nodemailer/lib/smtp-pool");
 
 const app = express();
 
@@ -51,4 +52,10 @@ app.post("/api/form", (req, res) => {
   });
 
   smtpTransport.close();
+});
+
+const PORT = process.env.PORT || 3000;
+
+app.listen(PORT, () => {
+  console.log(`server starting at port ${PORT}`);
 });
