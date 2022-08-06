@@ -83,7 +83,7 @@ export default class ContactUsForm extends Component {
   render() {
     return (
       <div className="container">
-        <form onClick={this.formSubmit}>
+        <form onSubmit={this.formSubmit}>
           {/* Single name item */}
           <div className="singleItem">
             <label htmlFor="name">Name: </label>
