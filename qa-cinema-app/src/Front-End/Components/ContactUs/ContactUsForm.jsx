@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import axios from "axios";
 
 export default class ContactUsForm extends Component {
   state = {
@@ -28,6 +29,56 @@ export default class ContactUsForm extends Component {
   };
 
   // End of handle inputs
+
+  // Form Submit function
+
+  formSubmit = (e) => {
+    e.preventDefault();
+
+    let data = {
+      name: this.state.name,
+      surname: this.state.surname,
+      email: this.state.email,
+      message: this.state.message,
+    };
+
+    // Axios Post methods
+
+    axios
+      .post("/api/form", data)
+      .then((res) => {
+        this.setState(
+          {
+            sent: true,
+          },
+          this.resetForm()
+        );
+      })
+      .catch(() => {
+        console.error("Oppps, Something went wrong. Please try again later");
+      });
+  };
+
+  // End of Form Submit function
+
+  // Resetting Form function
+
+  resetForm = () => {
+    this.setState({
+      name: "",
+      surname: "",
+      email: "",
+      message: "",
+    });
+
+    setTimeout(() => {
+      this.setState({
+        sent: false,
+      });
+    }, 3000);
+  };
+
+  //End of Form Resetting
 
   render() {
     return (
