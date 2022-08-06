@@ -51,10 +51,7 @@ p {
 
 .container input:focus,
 .container textarea:focus {
-  /* width: 100%;
-  margin: 0 auto;
-  padding: 10px;
-  border: none; */
+
   box-shadow: 3px 3px 8px 3px #070707;
 }
 
@@ -113,5 +110,10 @@ p {
 @media screen and (min-width: 986px) {
   .container {
     width: 40%;
+  }
+}
+@media screen and (min-width: 1100px) {
+  .container {
+    width: 20%;
   }
 }
