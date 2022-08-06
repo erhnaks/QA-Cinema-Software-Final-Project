@@ -141,7 +141,7 @@ export default class ContactUsForm extends Component {
           </div>
           {/* End of message item */}
           <hr></hr>
-          <div className="sent-msg">
+          <div className={this.state.sent ? "msg msgAppear" : "msg"}>
             Your message has been sent to our customer service department. One
             of our team member will get back to you as soon as possible.
           </div>
