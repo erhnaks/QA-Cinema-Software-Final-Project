@@ -159,16 +159,16 @@ export default class ContactUsForm extends Component {
             ></textarea>
           </div>
           {/* End of message item */}
-
-          <div className="msg">
+          <hr></hr>
+          <div className="sent-msg">
             Your message has been sent to our customer service department. One
             of our team member will get back to you as soon as possible.
           </div>
+          <hr></hr>
 
-          <div className="btn"></div>
-          <button type="submit" className="btn btn-primary">
-            Submit
-          </button>
+          <div className="btn-form">
+            <button type="submit">Submit</button>
+          </div>
         </form>
       </div>
     );
