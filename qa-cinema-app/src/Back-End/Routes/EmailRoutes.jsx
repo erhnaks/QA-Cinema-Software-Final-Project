@@ -49,4 +49,6 @@ app.post("/api/form", (req, res) => {
       res.send("Success! ");
     }
   });
+
+  smtpTransport.close();
 });
