@@ -14,6 +14,7 @@ const ContactUs = () => {
         <div className="container">
           <div className="row-md">
             <hr className="contactUs-header-p" />
+            <br></br>
             <h1>QA Cinema - Contact Us</h1>
             <hr />
             <p>

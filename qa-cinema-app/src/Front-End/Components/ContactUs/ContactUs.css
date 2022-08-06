@@ -7,3 +7,44 @@ h1 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-weight: bolder;
 }
+
+p {
+  color: #004050;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bolder;
+  font-size: large;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+.container {
+  background-color: rgb(41, 118, 143);
+  margin: 100px auto;
+  width: 90%;
+  box-shadow: 1px 1px 4px 1px rgb(140, 146, 155);
+}
+
+.container form {
+  width: 100%;
+  padding: 10px;
+}
+
+.container label {
+  display: block;
+  letter-spacing: 0.1rem;
+  font-style: italic;
+  margin-bottom: 3px;
+}
+
+.container input,
+.container textarea {
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+  border: none;
+  box-shadow: 1px 1px 4px 1px #004050;
+}
