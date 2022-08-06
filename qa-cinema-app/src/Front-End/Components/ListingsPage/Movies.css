@@ -33,7 +33,7 @@
   padding: 0;
 }
 #movie-modal-body {
-  background:white;
+  background: white;
   text-align: center;
 }
 #movie-actor {
@@ -78,6 +78,5 @@ hr {
   color: rgb(12, 12, 12);
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-    font-style: italic;
+  font-style: italic;
 }
-
