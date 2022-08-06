@@ -12,19 +12,19 @@ export default class ContactUsForm extends Component {
   // handle inputs
 
   handleName = (e) => {
-    this.setState({ name: e.target.name });
+    this.setState({ name: e.target.value });
   };
 
   handleSurname = (e) => {
-    this.setState({ name: e.target.surname });
+    this.setState({ surname: e.target.value });
   };
 
   handleEmail = (e) => {
-    this.setState({ name: e.target.email });
+    this.setState({ email: e.target.value });
   };
 
   handleMessage = (e) => {
-    this.setState({ name: e.target.message });
+    this.setState({ message: e.target.value });
   };
 
   // End of handle inputs
@@ -41,6 +41,8 @@ export default class ContactUsForm extends Component {
               name="name"
               placeholder="Your name..."
               className="name"
+              value={this.state.name}
+              onChange={this.handleName}
             />
           </div>
           {/* End of name item */}
@@ -51,7 +53,9 @@ export default class ContactUsForm extends Component {
               type="text"
               name="surname"
               placeholder="Your surname..."
-              className="name"
+              className="surname"
+              value={this.state.surname}
+              onChange={this.handleSurname}
             />
           </div>
           {/* End of surname item */}
@@ -64,6 +68,8 @@ export default class ContactUsForm extends Component {
               name="Email"
               placeholder="Your e-mail..."
               className="Email"
+              value={this.state.email}
+              onChange={this.handleEmail}
             />
           </div>
           {/* End of email item */}
@@ -78,6 +84,8 @@ export default class ContactUsForm extends Component {
               id=""
               cols="30"
               rows="10"
+              value={this.state.message}
+              onChange={this.handleMessage}
             ></textarea>
           </div>
           {/* End of message item */}
