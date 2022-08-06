@@ -46,5 +46,14 @@ p {
   margin: 0 auto;
   padding: 10px;
   border: none;
-  box-shadow: 1px 1px 4px 1px #004050;
+  box-shadow: 1px 1px 4px 1px #6e27acad;
+}
+
+.container input:focus,
+.container textarea:focus {
+  /* width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+  border: none; */
+  box-shadow: 3px 3px 8px 3px #070707;
 }
