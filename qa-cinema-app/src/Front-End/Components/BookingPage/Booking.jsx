@@ -13,6 +13,17 @@ const Booking = () => {
     // });
     const [movieId, setMovieId] = useState();
 
+    const createTicket = () => {
+       
+
+    }
+
+    const handleChange = (e) => {
+        setMovieId(e.target.value);
+        console.log(movieId);
+      };
+
+
     const toggle = (event) => {
 
         const movieSelected = document.getElementById("movie");
@@ -38,7 +49,7 @@ const Booking = () => {
 
                 <div className="movie-container">
                     <label> Select a movie:</label>
-                    <select id="movie">
+                    <select value={movieId} onChange={handleChange} id="movie">
                         <BookingOptions></BookingOptions>
                     </select>
                     <br />
@@ -94,7 +105,7 @@ const Booking = () => {
                         <div className="booking-row">
                             
                             <button className="seat disabled" id="1A" onClick={toggle}></button>
-                            <button className="seat disabled"></button>
+                            <button className="seat disabled" onClick={createTicket}></button>
                             <button className="seat disabled"></button>
                             <button className="seat disabled"></button>
                             <button className="seat"></button>
