@@ -17,7 +17,7 @@ const Booking = () => {
     const [seatId, setSeatId] = useState();
 
     const createTicket = (e) => {
-        console.log(e.currentTarget.id);
+        setSeatId(e.currentTarget.id);
     }
 
     // const createTicket = () => {
@@ -185,6 +185,43 @@ const Booking = () => {
                             <button className="seat" id="6G" onClick={createTicket}></button>
                             <button className="seat" id="6H" onClick={createTicket}></button>
                         </div>
+                    </div>
+                </div>
+
+                <hr />
+
+                <div className="row">
+                    <h4>Tickets:</h4>
+
+                    <table class="table table-hover table-dark">
+                        <thead>
+                            <tr>
+                                <th scope="col"></th>
+                                <th scope="col">Movie</th>
+                                <th scope="col">Time</th>
+                                <th scope="col">Seat</th>
+                                <th scope="col">Price</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>{movieId}</td>
+                                <td>{showingTime}</td>
+                                <td>{seatId}</td>
+                                <td>{ticketPrice}</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row">Total:</th>
+                                <td colSpan="3"></td>
+                                <td>10.99</td>
+                            </tr>
+                            
+                        </tbody>
+                    </table>
+                    <div className="row justify-content-end mb-3">
+                    <button className="btn btn-primary col-2">Purchase Now</button>
                     </div>
                 </div>
 
