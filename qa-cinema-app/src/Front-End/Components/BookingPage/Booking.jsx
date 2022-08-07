@@ -12,32 +12,47 @@ const Booking = () => {
     //     alert("Booking selected");
     // });
     const [movieId, setMovieId] = useState();
+    const [showingTime, setShowingTime] = useState();
+    const [ticketPrice, setTicketPrice] = useState();
+    const [seatId, setSeatId] = useState();
 
-    const createTicket = () => {
-       
-
+    const createTicket = (e) => {
+        console.log(e.currentTarget.id);
     }
 
-    const handleChange = (e) => {
+    // const createTicket = () => {
+
+
+    // }
+
+    const handleMovie = (e) => {
         setMovieId(e.target.value);
-        console.log(movieId);
-      };
+    };
 
+    const handleTime = (e) => {
+        setShowingTime(e.target.value);
 
-    const toggle = (event) => {
-
-        const movieSelected = document.getElementById("movie");
-        console.log("Movie id: " + movieSelected.value);
-
-        const showingSelected = document.getElementById("showing");
-        console.log("Showing time: " + showingSelected.value);
-
-        const ticketSelected = document.getElementById("ticket");
-        console.log("Ticket time: " + ticketSelected.value);
-
-        console.log(event.currentTarget.id);
-        // console.log(seatId);
     }
+
+    const handleTicketPrice = (e) => {
+        setTicketPrice(e.target.value);
+    }
+
+
+    // const toggle = (event) => {
+
+    //     const movieSelected = document.getElementById("movie");
+    //     console.log("Movie id: " + movieSelected.value);
+
+    //     const showingSelected = document.getElementById("showing");
+    //     console.log("Showing time: " + showingSelected.value);
+
+    //     const ticketSelected = document.getElementById("ticket");
+    //     console.log("Ticket time: " + ticketSelected.value);
+
+    //     console.log(event.currentTarget.id);
+    //     // console.log(seatId);
+    // }
 
     return (
         <>
@@ -49,12 +64,17 @@ const Booking = () => {
 
                 <div className="movie-container">
                     <label> Select a movie:</label>
-                    <select value={movieId} onChange={handleChange} id="movie">
+                    <select value={movieId} onChange={handleMovie} id="movie">
+                        <option disabled selected value></option>
                         <BookingOptions></BookingOptions>
                     </select>
+                    <h1>You have selected: {movieId}</h1>
+                    <h1>You have selected: {showingTime}</h1>
+                    <h1>You have selected: {ticketPrice}</h1>
                     <br />
                     <label> Select time:</label>
-                    <select id="showing">
+                    <select value={showingTime} onChange={handleTime} id="showing">
+                        <option disabled selected value></option>
                         <option value="12">12:00</option>
                         <option value="15">15:00</option>
                         <option value="18">18:00</option>
@@ -63,7 +83,8 @@ const Booking = () => {
                     </select>
                     <br />
                     <label> Ticket Type:</label>
-                    <select id="ticket">
+                    <select value={ticketPrice} onChange={handleTicketPrice} id="ticket">
+                        <option disabled selected value></option>
                         <option value="10">Adult £10</option>
                         <option value="5">Child £5</option>
                         <option value="7">Concession £7</option>
@@ -103,66 +124,66 @@ const Booking = () => {
                         <div className="screen"></div>
 
                         <div className="booking-row">
-                            
-                            <button className="seat disabled" id="1A" onClick={toggle}></button>
-                            <button className="seat disabled" onClick={createTicket}></button>
-                            <button className="seat disabled"></button>
-                            <button className="seat disabled"></button>
-                            <button className="seat"></button>
-                            <button className="seat"></button>
-                            <button className="seat disabled"></button>
-                            <button className="seat disabled"></button>
+
+                            <button className="seat disabled" id="1A" onClick={createTicket}></button>
+                            <button className="seat disabled" id="1B" onClick={createTicket}></button>
+                            <button className="seat disabled" id="1C" onClick={createTicket}></button>
+                            <button className="seat disabled" id="1D" onClick={createTicket}></button>
+                            <button className="seat" id="seat1E" onClick={createTicket}></button>
+                            <button className="seat" id="1F" onClick={createTicket}></button>
+                            <button className="seat disabled" id="1G" onClick={createTicket}></button>
+                            <button className="seat disabled" id="1H" onClick={createTicket}></button>
                         </div>
 
                         <div className="booking-row">
-                            <button className="seat"></button>
-                            <button className="seat"></button>
-                            <button className="seat"></button>
-                            <button className="seat"></button>
-                            <button className="seat"></button>
-                            <button className="seat"></button>
-                            <button className="seat"></button>
-                            <button className="seat"></button>
+                            <button className="seat" id="2A" onClick={createTicket}></button>
+                            <button className="seat" id="2B" onClick={createTicket}></button>
+                            <button className="seat" id="2C" onClick={createTicket}></button>
+                            <button className="seat" id="2D" onClick={createTicket}></button>
+                            <button className="seat" id="2E" onClick={createTicket}></button>
+                            <button className="seat" id="2F" onClick={createTicket}></button>
+                            <button className="seat" id="2G" onClick={createTicket}></button>
+                            <button className="seat" id="2H" onClick={createTicket}></button>
                         </div>
                         <div className="booking-row">
-                            <button className="seat"></button>
-                            <button className="seat"></button>
-                            <button className="seat"></button>
-                            <button className="seat"></button>
-                            <button className="seat"></button>
-                            <button className="seat"></button>
-                            <button className="seat"></button>
-                            <button className="seat"></button>
+                            <button className="seat" id="3A" onClick={createTicket}></button>
+                            <button className="seat" id="3B" onClick={createTicket}></button>
+                            <button className="seat" id="3C" onClick={createTicket}></button>
+                            <button className="seat" id="3D" onClick={createTicket}></button>
+                            <button className="seat" id="3E" onClick={createTicket}></button>
+                            <button className="seat" id="3F" onClick={createTicket}></button>
+                            <button className="seat" id="3G" onClick={createTicket}></button>
+                            <button className="seat" id="3H" onClick={createTicket}></button>
                         </div>
                         <div className="booking-row">
-                            <button className="seat"></button>
-                            <button className="seat"></button>
-                            <button className="seat"></button>
-                            <button className="seat"></button>
-                            <button className="seat"></button>
-                            <button className="seat"></button>
-                            <button className="seat"></button>
-                            <button className="seat"></button>
+                            <button className="seat" id="4A" onClick={createTicket}></button>
+                            <button className="seat" id="4B" onClick={createTicket}></button>
+                            <button className="seat" id="4C" onClick={createTicket}></button>
+                            <button className="seat" id="4D" onClick={createTicket}></button>
+                            <button className="seat" id="4E" onClick={createTicket}></button>
+                            <button className="seat" id="4F" onClick={createTicket}></button>
+                            <button className="seat" id="4G" onClick={createTicket}></button>
+                            <button className="seat" id="4H" onClick={createTicket}></button>
                         </div>
                         <div className="booking-row">
-                            <button className="seat"></button>
-                            <button className="seat"></button>
-                            <button className="seat"></button>
-                            <button className="seat"></button>
-                            <button className="seat"></button>
-                            <button className="seat"></button>
-                            <button className="seat"></button>
-                            <button className="seat"></button>
+                            <button className="seat" id="5A" onClick={createTicket}></button>
+                            <button className="seat" id="5B" onClick={createTicket}></button>
+                            <button className="seat" id="5C" onClick={createTicket}></button>
+                            <button className="seat" id="5D" onClick={createTicket}></button>
+                            <button className="seat" id="5E" onClick={createTicket}></button>
+                            <button className="seat" id="5F" onClick={createTicket}></button>
+                            <button className="seat" id="5G" onClick={createTicket}></button>
+                            <button className="seat" id="5H" onClick={createTicket}></button>
                         </div>
                         <div className="booking-row">
-                            <button className="seat"></button>
-                            <button className="seat"></button>
-                            <button className="seat"></button>
-                            <button className="seat"></button>
-                            <button className="seat"></button>
-                            <button className="seat"></button>
-                            <button className="seat"></button>
-                            <button className="seat"></button>
+                            <button className="seat" id="6A" onClick={createTicket}></button>
+                            <button className="seat" id="6B" onClick={createTicket}></button>
+                            <button className="seat" id="6C" onClick={createTicket}></button>
+                            <button className="seat" id="6D" onClick={createTicket}></button>
+                            <button className="seat" id="6E" onClick={createTicket}></button>
+                            <button className="seat" id="6F" onClick={createTicket}></button>
+                            <button className="seat" id="6G" onClick={createTicket}></button>
+                            <button className="seat" id="6H" onClick={createTicket}></button>
                         </div>
                     </div>
                 </div>
