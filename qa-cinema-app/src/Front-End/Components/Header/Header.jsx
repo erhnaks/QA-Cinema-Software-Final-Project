@@ -30,6 +30,7 @@ const Header = () => {
               <Nav.Link href="/about">About Us</Nav.Link>
               <Nav.Link href="/contactUs">Contact Us</Nav.Link>
               <Nav.Link href="/classifications">Classifications</Nav.Link>
+              <Nav.Link href="http://localhost:3001" target="blank">Mail Us</Nav.Link>
             </Nav>
           </Container>
         </Navbar>
