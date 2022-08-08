@@ -7,11 +7,14 @@ import AllListings from "./Front-End/Components/ListingsPage/AllListings";
 import NewReleases from "./Front-End/Components/NewReleases/NewReleases";
 import Places from "./Front-End/Components/Places/Places";
 
+import Classifications from "./Front-End/Components/Classifications/Classifications";
+
+import Screens from "./Front-End/Components/ScreensPage/Screens";
+
 function App() {
   return (
     <div className="App">
       <Router>
-        {/* <Navbar /> */}
         <Routes>
           <Route exact path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
@@ -19,7 +22,8 @@ function App() {
           <Route path="/listings" element={<AllListings />} />
           <Route path="/places" element={<Places />} />
           <Route path="/comingsoon" element={<NewReleases />} />
-
+          <Route path="/classifications" element={<Classifications />} />
+          <Route path="/screens" element={<Screens />} />
         </Routes>
       </Router>
     </div>
