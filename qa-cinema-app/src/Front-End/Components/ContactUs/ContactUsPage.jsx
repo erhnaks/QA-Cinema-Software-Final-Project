@@ -11,7 +11,7 @@ const ContactUs = () => {
       <body className="contactUs-body">
         <br></br>
         <br></br>
-        <div className="container">
+        <div className="container-contactUs">
           <div className="row-md">
             <hr className="contactUs-header-p" />
             <br></br>
