@@ -15,7 +15,9 @@ const Booking = () => {
 
     const [ticket, setTicket] = useState([]);
 
-
+    const totalCost = ticket.reduce((accumulator, object) => {
+        return +accumulator + +object.ticketPrice;
+      }, 0);
 
 
     const createTicket = (e) => {
@@ -207,7 +209,7 @@ const Booking = () => {
                             <tr>
                                 <th scope="row">Total:</th>
                                 <td colSpan="3"></td>
-                                <td>10.99</td>
+                                <td>{totalCost}</td>
                             </tr>
                             
                         </tbody>
