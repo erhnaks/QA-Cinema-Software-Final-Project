@@ -45,6 +45,7 @@ import {
                 <h6>{description}</h6>
                 <hr></hr>
                 <p id="movie-director">Contact Details {contactDetails}</p>
+                
                 {/* <h5>Venue Type: </h5> */}
                 <br></br>
                 {/* {contactDetails.map((contactDetail) => (

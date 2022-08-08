@@ -33,14 +33,14 @@
   padding: 0;
 }
 #movie-modal-body {
-  background:white;
+  background: white;
   text-align: center;
 }
 #movie-actor {
   line-height: 0%;
 }
 
-#NR-img,
+
 #ListingMovie-card-img {
   height: 350px;
   width: 255px;
@@ -48,36 +48,35 @@
   text-align: center;
 }
 
-#NR-card,
 #ListingMovie-card {
   background-color: #3283979d;
   text-align: center;
   height: 600px;
-  width: 260px;
+  width: 360px;
 }
 
-#NR-title,
+
 #ListingMovie-title {
   text-transform: uppercase;
-  color: white;
+  color: rgb(255, 255, 255);
   text-shadow: 2px 2px 10px #000;
+  text-align: center;
 }
 
 hr {
   background-color: rgb(131, 120, 57);
 }
 
-#movie-director {
+/* #movie-director {
   font-weight: bolder;
   font-style: italic;
   font-size: large;
   color: #004050;
-}
+} */
 
 .card-body p {
   color: rgb(12, 12, 12);
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-    font-style: italic;
+  font-style: italic;
 }
-
