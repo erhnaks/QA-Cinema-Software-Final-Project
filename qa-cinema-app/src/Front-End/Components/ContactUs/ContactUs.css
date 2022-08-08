@@ -21,8 +21,8 @@ p {
   box-sizing: 0;
 }
 
-.container {
-  background-color: rgb(41, 118, 143);
+.container-contactUs {
+  background-color: #4c70ad77;
   margin: 100px auto;
   width: 90%;
   box-shadow: 1px 1px 4px 1px rgb(140, 146, 155);
