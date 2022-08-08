@@ -10,6 +10,7 @@ import OpeningTime from "./Front-End/Components/OpeningTime/OpeningTime";
 import Classifications from "./Front-End/Components/Classifications/Classifications";
 
 import Screens from "./Front-End/Components/ScreensPage/Screens";
+import GettingThere from "./Front-End/Components/GettingThere/GettingThere";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route path="/classifications" element={<Classifications />} />
 
           <Route path="/screens" element={<Screens />} />
+          <Route path="/gettingthere" element={<GettingThere />} />
         </Routes>
       </Router>
     </div>
