@@ -82,11 +82,11 @@ export default class ContactUsForm extends Component {
 
   render() {
     return (
-      <div className="container">
+      <div className="container" id="contact-form">
         <form onSubmit={this.formSubmit}>
           {/* Single name item */}
           <div className="singleItem">
-            <label htmlFor="name">Name: </label>
+            <label htmlFor="name" id="contact-label">Name: </label>
             <input
               type="text"
               name="name"
@@ -99,7 +99,7 @@ export default class ContactUsForm extends Component {
           {/* End of name item */}
           {/* Single surname item */}
           <div className="singleItem">
-            <label htmlFor="surname">Surname: </label>
+            <label htmlFor="surname" id="contact-label">Surname: </label>
             <input
               type="text"
               name="surname"
@@ -113,7 +113,7 @@ export default class ContactUsForm extends Component {
 
           {/* Single email item */}
           <div className="singleItem">
-            <label htmlFor="email">E-mail: </label>
+            <label htmlFor="email" id="contact-label">E-mail: </label>
             <input
               type="text"
               name="Email"
@@ -129,7 +129,7 @@ export default class ContactUsForm extends Component {
           {/* Single message item */}
 
           <div className="singleItem">
-            <label htmlFor="message">Message: </label>
+            <label htmlFor="message" id="contact-label">Message: </label>
             <textarea
               name="message"
               placeholder="Your message..."
@@ -149,7 +149,7 @@ export default class ContactUsForm extends Component {
           </div>
           <hr></hr>
 
-          <div className="btn-form">
+          <div className="btn-contact-form">
             <button type="submit">Submit</button>
           </div>
         </form>
