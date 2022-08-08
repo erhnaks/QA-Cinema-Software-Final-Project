@@ -12,6 +12,7 @@ const Booking = () => {
     const [ticketPrice, setTicketPrice] = useState();
     const [seatId, setSeatId] = useState();
     const [seatState, setSeatState] = useState('seat');
+    const [movieName, setMovieName] = useState();
 
     const [ticket, setTicket] = useState([]);
 
@@ -27,6 +28,7 @@ const Booking = () => {
             id: ticket.length,
             seat: e.currentTarget.id,
             movieId: movieId,
+            movieName: movieName,
             ticketPrice: ticketPrice,
             showingTime: showingTime
         }])
@@ -36,6 +38,8 @@ const Booking = () => {
 
     const handleMovie = (e) => {
         setMovieId(e.target.value);
+        setMovieName(e.target[e.target.selectedIndex].text);
+
     };
 
     const handleTime = (e) => {
@@ -77,10 +81,10 @@ const Booking = () => {
                     <label> Ticket Type:</label>
                     <select value={ticketPrice} onChange={handleTicketPrice} id="ticket">
                         <option disabled selected value></option>
-                        <option value="10">Adult £10</option>
-                        <option value="5">Child £5</option>
-                        <option value="7">Concession £7</option>
-                        <option value="7">Disabled £7</option>
+                        <option value="10.00">Adult £10</option>
+                        <option value="5.00">Child £5</option>
+                        <option value="7.00">Concession £7</option>
+                        <option value="7.00">Disabled £7</option>
 
                     </select>
                 </div>
@@ -199,17 +203,17 @@ const Booking = () => {
                             {ticket.map(ticket => (
                         <tr>
                             <th scope="row">{ticket.id + 1}</th>
-                            <td>{ticket.movieId}</td>
+                            <td>{ticket.movieName}</td>
                             <td>{ticket.showingTime}</td>
                             <td>{ticket.seat}</td>
-                            <td>{ticket.ticketPrice}</td>
+                            <td>£{ticket.ticketPrice}</td>
                         </tr>
                         
                     ))}
                             <tr>
                                 <th scope="row">Total:</th>
                                 <td colSpan="3"></td>
-                                <td>{totalCost}</td>
+                                <td>£{totalCost}</td>
                             </tr>
                             
                         </tbody>
