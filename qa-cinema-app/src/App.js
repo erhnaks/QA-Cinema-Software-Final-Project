@@ -5,7 +5,7 @@ import HomePage from "./Front-End/Components/HomePage/Home";
 import AboutPage from "./Front-End/Components/AboutPage/About";
 import AllListings from "./Front-End/Components/ListingsPage/AllListings";
 import NewReleases from "./Front-End/Components/NewReleases/NewReleases";
-import PlacesToGo from "./Front-End/Components/Places/Places";
+import Places from "./Front-End/Components/Places/Places";
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
           <Route path="/about" element={<AboutPage />} />
           <Route path="/contactUs" element={<ContactUs />} />
           <Route path="/listings" element={<AllListings />} />
-          <Route path="/places" element={<PlacesToGo />} />
+          <Route path="/places" element={<Places />} />
           <Route path="/comingsoon" element={<NewReleases />} />
 
         </Routes>

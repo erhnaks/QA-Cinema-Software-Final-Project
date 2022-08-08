@@ -1,5 +1,5 @@
 import React from "react";
-import PlacesList from "..PlacesPage/PlacesList";
+import PlacesList from "../Places/PlacesList";
 import data from "../../../Resources/data/placesToGo.json";
 import "./Places.css";
 import Header from "../Header/Header";
@@ -8,12 +8,12 @@ import Footer from "../Footer/Footer";
 
 
 
-const AllPlaces = () => {
+const Places = () => {
   return (
     <React.Fragment>
       <Header></Header>
 <div className="container">
-        <div className="row-md" id="placesList-Header">
+        <div className="row-md" id="movieListing-Header">
           <hr id="hr" />
           <h1>Places To Go </h1>
           <hr id="hr" />
@@ -28,7 +28,7 @@ const AllPlaces = () => {
               <PlacesList
                 key={places.id}
                 name={places.name}
-                poster={places.poster}
+                poster={places.img}
                 description={places.description}
                 offers={places.offers}
                 contactDetails={places.contactDetails}
@@ -44,4 +44,4 @@ const AllPlaces = () => {
 </React.Fragment>
   );
 };
-export default AllPlaces;
+export default Places;
