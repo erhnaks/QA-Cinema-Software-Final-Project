@@ -17,7 +17,7 @@ const OpeningTime = () => {
               </p>
             </blockquote>
             <figcaption class="blockquote-footer">
-              Said <cite title="Source Title">Everyone Ever</cite>
+              <cite title="Source Title">Everyone Ever</cite>
             </figcaption>
           </figure>
     </div>
