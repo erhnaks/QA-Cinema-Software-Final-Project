@@ -43,7 +43,6 @@ const ListingMovieDetails = ({
 
               <div className="col-md-12">
                 <hr />
-                {/* <h5>Description</h5> */}
                 <h6>{description}</h6>
                 <hr></hr>
                 <p id="movie-director">Directed By {director}</p>
