@@ -23,7 +23,8 @@ const Header = () => {
               <Nav.Link href="/comingsoon">New Releases</Nav.Link>
               <Nav.Link href="/booking">Booking</Nav.Link>
 
-              <Nav.Link href="#pricing">Opening Times</Nav.Link>
+              <Nav.Link href="/openingtime">Opening Times</Nav.Link>
+
 
               <Nav.Link href="/screens">Screens</Nav.Link>
               <Nav.Link href="#pricing">Pricing</Nav.Link>
