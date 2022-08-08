@@ -10,7 +10,16 @@ const OpeningTime = () => {
     <br></br>
 
     <div className="container">
-    <h1 class="text-center">"I'm the type of person who eats all the popcorn while they're still going through the trailers"</h1>
+    <figure class="text-center">
+            <blockquote class="blockquote">
+              <p>
+              "I am the type of person who eats all the popcorn while they're still going through the trailers"
+              </p>
+            </blockquote>
+            <figcaption class="blockquote-footer">
+              Said <cite title="Source Title">Everyone Ever</cite>
+            </figcaption>
+          </figure>
     </div>
     <br></br>
 
