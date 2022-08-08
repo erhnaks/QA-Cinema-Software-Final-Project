@@ -7,6 +7,8 @@ const OpeningTime = () => {
     <>
     <Header></Header>
 
+    <br></br>
+
     <div className="container">
     <h1 class="text-center">"I'm the type of person who eats all the popcorn while they're still going through the trailers"</h1>
     </div>
@@ -42,10 +44,8 @@ const OpeningTime = () => {
             <img src= "https://images.pexels.com/photos/3537844/pexels-photo-3537844.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"></img>
           </div>
     </div>
-
-
-
-
+    <br></br>
+    <br></br>
 
 
     <Footer></Footer>
