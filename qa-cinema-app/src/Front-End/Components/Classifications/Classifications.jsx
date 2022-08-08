@@ -52,7 +52,7 @@ const Classifications = () => {
 
         <Accordion defaultActiveKey="">
           <Accordion.Item eventKey="0">
-            <Accordion.Header>TO BE CONFIRMED </Accordion.Header>
+            <Accordion.Header>TBC- To Be Confirmed </Accordion.Header>
             <Accordion.Body>
               <img src={tbc} alt="tbc"></img>
               <p></p>
@@ -66,8 +66,8 @@ const Classifications = () => {
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="1">
-            <Accordion.Header>
-              U - Universal - Suitalbe for all
+            <Accordion.Header> 
+              U - Universal - Suitable For All Ages
             </Accordion.Header>
             <Accordion.Body>
               <img src={Universal} alt="universal"></img>
@@ -81,7 +81,7 @@ const Classifications = () => {
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="2">
-            <Accordion.Header>PG - PARENTAL GUIDANCE</Accordion.Header>
+            <Accordion.Header>PG - Parental Guidance</Accordion.Header>
             <Accordion.Body>
               <img src={PG} alt="PG"></img>
               <p></p>
@@ -96,7 +96,7 @@ const Classifications = () => {
           </Accordion.Item>
           <Accordion.Item eventKey="3">
             <Accordion.Header>
-              12A - 12 YEARS OLD AND WITH PARENTAL GUIDANCE
+              12A - 12 Years Old And With Parental Guidance
             </Accordion.Header>
             <Accordion.Body>
               <img src={TwelveA} alt="twelve"></img>
