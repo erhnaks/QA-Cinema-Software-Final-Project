@@ -54,7 +54,7 @@ const Classifications = () => {
           <Accordion.Item eventKey="0">
             <Accordion.Header>TO BE CONFIRMED </Accordion.Header>
             <Accordion.Body>
-              <img src={tbc}></img>
+              <img src={tbc} alt="tbc"></img>
               <p></p>
               In some instances films have not been certified by the time
               tickets are available online.
@@ -70,7 +70,7 @@ const Classifications = () => {
               U - Universal - Suitalbe for all
             </Accordion.Header>
             <Accordion.Body>
-              <img src={Universal}></img>
+              <img src={Universal} alt="universal"></img>
               <p></p>
               Suitable for all. A U film should be suitable for audiences aged
               four years and over.
@@ -83,7 +83,7 @@ const Classifications = () => {
           <Accordion.Item eventKey="2">
             <Accordion.Header>PG - PARENTAL GUIDANCE</Accordion.Header>
             <Accordion.Body>
-              <img src={PG}></img>
+              <img src={PG} alt="PG"></img>
               <p></p>
               General viewing, but some scenes may be unsuitable for young
               children. A PG film should not unsettle a child aged around eight
@@ -99,7 +99,7 @@ const Classifications = () => {
               12A - 12 YEARS OLD AND WITH PARENTAL GUIDANCE
             </Accordion.Header>
             <Accordion.Body>
-              <img src={TwelveA}></img>
+              <img src={TwelveA} alt="twelve"></img>
               <p></p>
               12A means that the BBFC have classified the film unsuitable for
               children under 12. However, they may still watch the film, as long
@@ -121,7 +121,7 @@ const Classifications = () => {
               15 - Suitable only for 15 years and over
             </Accordion.Header>
             <Accordion.Body>
-              <img src={fifteen}></img>
+              <img src={fifteen} alt="fifteen"></img>
               <p></p>
               Suitable only for 15 years and over. No one younger than 15 may
               see a 15 film in a cinema. No one younger than 15 may rent or buy
@@ -138,7 +138,7 @@ const Classifications = () => {
               18 - Suitable only for 18 years and over
             </Accordion.Header>
             <Accordion.Body>
-              <img src={eighteen}></img>
+              <img src={eighteen} alt="eighteen"></img>
               <p></p>
               Suitable only for adults. No one younger than 18 may see an 18
               film in a cinema. No one younger than 18 may rent or buy an 18
