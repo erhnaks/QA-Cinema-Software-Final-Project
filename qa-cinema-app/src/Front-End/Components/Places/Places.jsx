@@ -32,7 +32,7 @@ const Places = () => {
                 description={places.description}
                 offers={places.offers}
                 contactDetails={places.contactDetails}
-                venueType={places.venueType}
+                // venueType={places.venueType}
               />
             </div>
           ))}

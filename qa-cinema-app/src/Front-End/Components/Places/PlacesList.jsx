@@ -12,7 +12,7 @@ const PlacesList = (props) => {
         <hr />
         <CardSubtitle className="ListingMovie-subtitle">
           <p>Offers: {props.offers}</p>
-          <p>Venue Type: {props.venueType}</p>
+          {/* <p>Venue Type: {props.venueType}</p> */}
         </CardSubtitle>
         <hr />
         <div className="col-md-12">
@@ -23,7 +23,7 @@ const PlacesList = (props) => {
              description={props.description}
              offers={props.offers}
              contactDetails={props.contactDetails}
-             venueType={props.venueType}
+            //  venueType={props.venueType}
           />
         </div>
       </CardBody>

@@ -4,7 +4,7 @@
    
       "img" : "https://wallpaperaccess.com/full/2028592.jpg",
       "description" : "The Tower of London, officially Her Majesty's Royal Palace and Fortress of the Tower of London, is a historic castle on the north bank of the River Thames in central London.",
-      "offers" : "buy 2 tickets to qualify for 50% off at qa_cinema *Tuesday's & Thursday's only*",
+      "offers" : "Buy 2 tickets to qualify for 50% off at qa_cinema *Tuesday's & Thursday's only*",
       "contactDetails" :  ["address: St Katharine's & Wapping, London EC3N 4AB England",  "email : info@hrp.org.uk", "number: 02031666000"],  
       "id" : "12121"
       },
@@ -41,7 +41,15 @@
       "offers" : "Hire this venue for 1 day and receive 2 free tickets for you and a friend valid at qa_cinema *tickets valid for Monday & Wednesday entry to a standard viewing only*",
       "contactDetails" :  ["address: Wilton's Music Hall, 1 Graces Alley, London, E1 8JB", "email : info@wiltons.org.uk", "number: 02077022789"],
       "id" : "16161"
-      } 
+      },
+      {
+            "img" : "https://c8.alamy.com/comp/2JD4GAD/the-silver-sturgeon-cruise-boat-moored-at-tower-bridge-quay-london-england-2JD4GAD.jpg",
+            "name" : "Tower Bridge Quay",
+            "description" : "Tower Bridge Quay previously St. Katharine's Pier, is a river transport pier on the River Thames, in London, UK. It is owned & operated by Woods River Cruises trading as Woods’ Silver Fleet and served by various river transport and cruise operators.",
+            "offers" : "Half price ferry tickes when you make a booking of 4 or more tickets at qa_cinema. *tickets valid for Wednesday & Thursday ferry trips only*",
+            "contactDetails" :  ["address: St Katharine's Way, London E1W 1LD", "email :  store@viscountcruises.com", "number: 02074033761"],
+            "id" : "17171"
+            }  
       
 
 
