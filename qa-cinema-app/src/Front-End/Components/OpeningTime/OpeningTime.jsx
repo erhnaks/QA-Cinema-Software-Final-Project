@@ -8,7 +8,7 @@ const OpeningTime = () => {
     <Header></Header>
 
     <div className="container">
-    <h1>Opening Times</h1>
+    <h1>"I'm the type of person who eats all the popcorn while they're still going through the trailers" - Everyone</h1>
     </div>
 
     <div className="row d-flex justify-content-around">
