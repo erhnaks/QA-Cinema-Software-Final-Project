@@ -1,5 +1,5 @@
 .contactUs-body {
-  background-color: #eceddb;
+  background-color: #cdcfa6;
 }
 
 h1 {
@@ -28,12 +28,12 @@ p {
   box-shadow: 1px 1px 4px 1px rgb(140, 146, 155);
 }
 
-.container form {
+#contact-form {
   width: 100%;
   padding: 10px;
 }
 
-.container label {
+.container #contact-label {
   display: block;
   letter-spacing: 0.1rem;
   font-style: italic;
@@ -58,12 +58,12 @@ p {
   margin: 10px 0;
 }
 
-.btn-form {
+.btn-contact-form {
   width: 100px;
   text-align: center;
 }
 
-.btn-form button {
+.btn-contact-form button {
   width: 150px;
   font-size: 18px;
   letter-spacing: 0.2em;
@@ -75,7 +75,7 @@ p {
   margin-top: 5px;
 }
 
-.btn-form button:hover {
+.btn-contact-form button:hover {
   border: 4px solid #004050;
   background-color: rgba(155, 248, 191, 0.756);
   cursor: pointer;
