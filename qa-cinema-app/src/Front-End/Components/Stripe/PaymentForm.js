@@ -23,12 +23,27 @@ const CARD_OPTIONS = {
 	}
 }
 
+
+
+const makeId = (length) => {
+    let result           = '';
+    let characters       = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
+    let charactersLength = characters.length;
+    for ( let i = 0; i < length; i++ ) {
+      result += characters.charAt(Math.floor(Math.random() * 
+ charactersLength));
+   }
+
+   return result;
+}
+
 const PaymentForm = (props) => {
     const [success, setSuccess] = useState(false);
     const stripe = useStripe();
     const elements = useElements();
     const totalCost = props.totalCost * 100;
     const ticket = props.ticket;
+    const [bookingReference, setBookingReference] = useState();
 
     const handleSubmit = async (event) => {
         event.preventDefault();
@@ -49,6 +64,7 @@ const PaymentForm = (props) => {
                 if (response.data.success) {
                     console.log("Successful payment");
                     setSuccess(true);
+                    setBookingReference(makeId(5));
                 }
 
             } catch (error) {
@@ -74,13 +90,14 @@ const PaymentForm = (props) => {
             </form>    
             :
             <div>
-                <h2>Your Movie has been booked.</h2>
+                <h2>Your Movie has been booked. Your Booking Reference: #{bookingReference}</h2>
                 {ticket.map(ticket => (
                                 <>
                                     <h3>{ticket.id + 1}: {ticket.movieName} at {ticket.showingTime}, Seat: {ticket.seat}</h3>
                                 </>
 
                             ))}
+
             </div>
         }
         </>
