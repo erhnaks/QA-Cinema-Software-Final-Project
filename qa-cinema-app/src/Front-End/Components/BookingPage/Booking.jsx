@@ -13,12 +13,13 @@ const Booking = () => {
     const [seatId, setSeatId] = useState();
     const [seatState, setSeatState] = useState('seat');
     const [movieName, setMovieName] = useState();
+    const [seatSelections, setSeatSelections] = useState('d-none');
 
     const [ticket, setTicket] = useState([]);
 
     const totalCost = ticket.reduce((accumulator, object) => {
         return +accumulator + +object.ticketPrice;
-      }, 0);
+    }, 0);
 
 
     const createTicket = (e) => {
@@ -32,7 +33,7 @@ const Booking = () => {
             ticketPrice: ticketPrice,
             showingTime: showingTime
         }])
-        // ticketN = ticketN + 1;
+
     }
 
 
@@ -51,6 +52,19 @@ const Booking = () => {
         setTicketPrice(e.target.value);
     }
 
+    // if (movieId != null && showingTime != null && ticketPrice != null) {
+    //     console.log("Test: " + movieId);
+    //     setSeatSelections('');
+    // }
+
+    const ShowSeats = () => {
+        if (movieId != null && showingTime != null && ticketPrice != null) {
+            setSeatSelections();
+        }
+        //setSeatSelections();
+
+    }
+
 
     return (
         <>
@@ -58,7 +72,7 @@ const Booking = () => {
             <Header></Header>
             <div className="container-fluid" id="booking">
                 <h1>Booking</h1>
-                
+
 
                 <div className="movie-container">
                     <label> Select a movie:</label>
@@ -66,7 +80,7 @@ const Booking = () => {
                         <option disabled selected value></option>
                         <BookingOptions></BookingOptions>
                     </select>
-                    
+
                     <br />
                     <label> Select time:</label>
                     <select value={showingTime} onChange={handleTime} id="showing">
@@ -87,6 +101,9 @@ const Booking = () => {
                         <option value="7.00">Disabled £7</option>
 
                     </select>
+                    <br />
+                    <button className="btn btn-info" onClick={ShowSeats}>Book Seats</button>
+
                 </div>
 
                 <ul className="showcase">
@@ -115,7 +132,7 @@ const Booking = () => {
                     </li> */}
 
                 </ul>
-                <div className="row d-flex justify-content-center align-items-center">
+                <div className={`row d-flex justify-content-center align-items-center ${seatSelections}`}>
                     <div className="booking-container col-5">
                         <div className="screen"></div>
 
@@ -201,25 +218,25 @@ const Booking = () => {
                         </thead>
                         <tbody>
                             {ticket.map(ticket => (
-                        <tr>
-                            <th scope="row">{ticket.id + 1}</th>
-                            <td>{ticket.movieName}</td>
-                            <td>{ticket.showingTime}</td>
-                            <td>{ticket.seat}</td>
-                            <td>£{ticket.ticketPrice}</td>
-                        </tr>
-                        
-                    ))}
+                                <tr>
+                                    <th scope="row">{ticket.id + 1}</th>
+                                    <td>{ticket.movieName}</td>
+                                    <td>{ticket.showingTime}</td>
+                                    <td>{ticket.seat}</td>
+                                    <td>£{ticket.ticketPrice}</td>
+                                </tr>
+
+                            ))}
                             <tr>
                                 <th scope="row">Total:</th>
                                 <td colSpan="3"></td>
                                 <td>£{totalCost}</td>
                             </tr>
-                            
+
                         </tbody>
                     </table>
                     <div className="row justify-content-end mb-3">
-                    <button className="btn btn-primary col-2">Purchase Now</button>
+                        <button className="btn btn-primary col-2" href="/paymentForm">Purchase Now</button>
                     </div>
                 </div>
 
