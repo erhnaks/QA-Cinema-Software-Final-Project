@@ -54,8 +54,9 @@ const Booking = () => {
         setTicketPrice(e.target.value);
     }
 
-    
-    const ShowSeats = () => {
+
+    const ShowSeats = (e) => {
+        e.preventDefault();
         if (movieId != null && showingTime != null && ticketPrice != null) {
             setSeatSelections();
         }
@@ -64,7 +65,7 @@ const Booking = () => {
 
     const [paymentForm, setPaymentForm] = useState('d-none');
     const showPaymentForm = () => {
-       setPaymentForm();
+        setPaymentForm();
 
     }
 
@@ -77,37 +78,47 @@ const Booking = () => {
                 <h1>Booking</h1>
 
 
-                <div className="movie-container">
-                    <label> Select a movie:</label>
-                    <select value={movieId} onChange={handleMovie} id="movie">
-                        <option disabled selected value></option>
-                        <BookingOptions></BookingOptions>
-                    </select>
+                <form className="form-inline">
+                    <div className="d-flex justify-content-between">
 
-                    <br />
-                    <label> Select time:</label>
-                    <select value={showingTime} onChange={handleTime} id="showing">
-                        <option disabled selected value></option>
-                        <option value="12">12:00</option>
-                        <option value="15">15:00</option>
-                        <option value="18">18:00</option>
-                        <option value="21">21:00</option>
 
-                    </select>
-                    <br />
-                    <label> Ticket Type:</label>
-                    <select value={ticketPrice} onChange={handleTicketPrice} id="ticket">
-                        <option disabled selected value></option>
-                        <option value="10.00">Adult £10</option>
-                        <option value="5.00">Child £5</option>
-                        <option value="7.00">Concession £7</option>
-                        <option value="7.00">Disabled £7</option>
+                        <div className="col-3">
+                            <label className="my-1 mr-2"> Select a movie:</label>
+                            <select className="form-control mr-sm-2" value={movieId} onChange={handleMovie} id="movie">
+                                <option disabled selected value></option>
+                                <BookingOptions></BookingOptions>
+                            </select>
+                        </div>
 
-                    </select>
-                    <br />
-                    <button className="btn btn-info" onClick={ShowSeats}>Book Seats</button>
+                        <div className="col-3">
+                            <label className="my-1 mr-2"> Select time:</label>
+                            <select className="form-control mr-sm-2" value={showingTime} onChange={handleTime} id="showing">
+                                <option disabled selected value></option>
+                                <option value="12:00">12:00</option>
+                                <option value="15:00">15:00</option>
+                                <option value="18:00">18:00</option>
+                                <option value="21:00">21:00</option>
 
-                </div>
+                            </select>
+                        </div>
+                        <div className="col-3">
+                            <label className="my-1 mr-2"> Ticket Type:</label>
+                            <select className="form-control mr-sm-2" value={ticketPrice} onChange={handleTicketPrice} id="ticket">
+                                <option disabled selected value></option>
+                                <option value="10.00">Adult £10</option>
+                                <option value="5.00">Child £5</option>
+                                <option value="7.00">Concession £7</option>
+                                <option value="7.00">Disabled £7</option>
+
+                            </select>
+                        </div>
+                    </div>
+                    <div className="row m-3 d-flex justify-content-center">
+                        
+                    <button className="btn btn-secondary" onClick={ShowSeats} id="BookSeats">Book Seats</button>
+                    
+                    </div>
+                </form>
 
                 <ul className="showcase">
                     <li>
@@ -243,9 +254,10 @@ const Booking = () => {
                     </div>
                 </div>
 
-                <div className={`row justify-content-center ${paymentForm}`}>
+                <div className={`row justify-content-center pb-4 ${paymentForm}`}>
                     <div className="col-6">
-                        <StripeContainer totalCost={totalCost} ticket={ticket}/>
+                        
+                        <StripeContainer totalCost={totalCost} ticket={ticket} />
                     </div>
                 </div>
 

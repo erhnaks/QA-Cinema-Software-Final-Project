@@ -81,19 +81,21 @@ const PaymentForm = (props) => {
         <>
             {!success ? 
             <form onSubmit={handleSubmit}>
+                <h4>Please Enter Payment Information:</h4>
                 <fieldset className='FormGroup'>
                     <div className='formRow'>
                         <CardElement options={CARD_OPTIONS}/>
                     </div>
                     </fieldset>
-                    <button>Pay</button>
+                    <button id="pay">Pay</button>
             </form>    
             :
             <div>
-                <h2>Your Movie has been booked. Your Booking Reference: #{bookingReference}</h2>
+                <h2>Your Movie has been booked.</h2>
+                <h3>Booking Reference: <strong>#{bookingReference}</strong></h3>
                 {ticket.map(ticket => (
                                 <>
-                                    <h3>{ticket.id + 1}: {ticket.movieName} at {ticket.showingTime}, Seat: {ticket.seat}</h3>
+                                    <h3>{ticket.id + 1}: <strong>{ticket.movieName}</strong> at {ticket.showingTime}, Seat: {ticket.seat}</h3>
                                 </>
 
                             ))}
