@@ -56,15 +56,17 @@ const PaymentForm = (props) => {
         if (!error) {
             try {
                 const { id } = paymentMethod;
+                setBookingReference(makeId(5));
                 const response = await axios.post("http://localhost:4000/payment", {
                     amount: totalCost,
+                    description: bookingReference,
                     id
                 })
 
                 if (response.data.success) {
                     console.log("Successful payment");
                     setSuccess(true);
-                    setBookingReference(makeId(5));
+                    
                 }
 
             } catch (error) {
