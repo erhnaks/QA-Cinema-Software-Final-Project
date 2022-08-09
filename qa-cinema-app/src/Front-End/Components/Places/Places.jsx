@@ -13,7 +13,7 @@ const Places = () => {
     <React.Fragment>
       <Header></Header>
 <div className="container">
-        <div className="row-md" id="movieListing-Header">
+        <div className="row-md" id="places-Header">
           <hr id="hr" />
           <h1>Places To Go </h1>
           <hr id="hr" />

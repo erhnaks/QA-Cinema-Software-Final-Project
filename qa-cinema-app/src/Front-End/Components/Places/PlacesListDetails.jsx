@@ -32,8 +32,8 @@ import {
           dialogClassName="modal-dialog"
           isOpen={modal}
         >
-          <ModalHeader id="movie-modal-header">{name}</ModalHeader>
-          <ModalBody id="movie-modal-body">
+          <ModalHeader id="places-modal-header">{name}</ModalHeader>
+          <ModalBody id="places-modal-body">
             <div class="row-md">
               <div className="col-md-12" id="modal-image">
                 <img src={poster} alt={name} width="30%" height="30%" />
@@ -44,7 +44,7 @@ import {
                 {/* <h5>Description</h5> */}
                 <h6>{description}</h6>
                 <hr></hr>
-                <p id="movie-director">Contact Details {contactDetails}</p>
+                <p id="contactDetails">Contact Details {contactDetails}</p>
                 
                 {/* <h5>Venue Type: </h5> */}
                 <br></br>
@@ -58,7 +58,7 @@ import {
               </div>
             </div>
           </ModalBody>
-          <ModalFooter id="movie-modal-footer">
+          <ModalFooter id="places-modal-footer">
             <button onClick={toggle} className="btn btn-info">
               Go Back
             </button>

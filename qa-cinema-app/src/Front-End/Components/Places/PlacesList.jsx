@@ -3,10 +3,10 @@ import PlacesListDetails from "./PlacesListDetails";
 
 const PlacesList = (props) => {
   return (
-    <Card id="ListingMovie-card">
-      <CardImg src={props.poster} id="ListingMovie-card-img" />
+    <Card id="PlacesList-card">
+      <CardImg src={props.poster} id="PlacesList-card-img" />
       <CardBody>
-        <CardTitle id="ListingMovie-title">
+        <CardTitle id="PlacesList-title">
           <h4>{props.name}</h4>
         </CardTitle>
         <hr />

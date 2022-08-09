@@ -1,4 +1,4 @@
-#movieListing-Header {
+#places-Header {
   text-align: center;
   color: #004050;
   text-shadow: 2px 2px 10px rgb(65, 68, 173);
@@ -8,47 +8,31 @@
 #modalimage {
   text-align: center;
 }
-#movie-modal-header,
-#movie-modal-footer {
+#places-modal-header,
+#places-modal-footer {
   background: #004050;
   text-transform: uppercase;
   color: rgb(251, 251, 251);
   text-shadow: 3px 3px 10px rgb(204, 193, 193);
 }
-#movie-director {
+#contactDetails {
   text-align: center;
   font-size: large;
   padding-top: 0%;
 }
-#movie-runtime,
-#movie-rating {
-  text-align: center;
-  font-size: small;
-  line-height: 0%;
-}
+
 .modal-dialog {
   width: 100%;
   height: 80%;
   margin: 0;
   padding: 0;
 }
-#movie-modal-body {
+#places-modal-body {
   background: white;
   text-align: center;
 }
-#movie-actor {
-  line-height: 0%;
-}
 
-
-#ListingMovie-card-img {
-  height: 300px;
-  width: 255px;
-  padding: 1rem;
-  text-align: center;
-}
-
-#ListingMovie-card {
+#PlacesList-card {
   background-color: #3283979d;
   text-align: center;
   height: 600px;
@@ -56,7 +40,7 @@
 }
 
 
-#ListingMovie-title {
+#PlacesList-title {
   text-transform: uppercase;
   color: rgb(255, 255, 255);
   text-shadow: 2px 2px 10px #000;
@@ -67,12 +51,6 @@ hr {
   background-color: rgb(131, 120, 57);
 }
 
-/* #movie-director {
-  font-weight: bolder;
-  font-style: italic;
-  font-size: large;
-  color: #004050;
-} */
 
 .card-body p {
   color: rgb(12, 12, 12);
