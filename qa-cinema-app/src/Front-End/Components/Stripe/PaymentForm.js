@@ -23,10 +23,11 @@ const CARD_OPTIONS = {
 	}
 }
 
-const PaymentForm = () => {
+const PaymentForm = (props) => {
     const [success, setSuccess] = useState(false);
     const stripe = useStripe();
     const elements = useElements();
+    const totalCost = props.totalCost * 100;
 
     const handleSubmit = async (event) => {
         event.preventDefault();
@@ -40,7 +41,7 @@ const PaymentForm = () => {
             try {
                 const { id } = paymentMethod;
                 const response = await axios.post("http://localhost:4000/payment", {
-                    amount: 1000,
+                    amount: totalCost,
                     id
                 })
 

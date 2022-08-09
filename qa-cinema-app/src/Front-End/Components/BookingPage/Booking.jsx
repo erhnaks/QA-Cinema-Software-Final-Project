@@ -4,6 +4,7 @@ import Footer from "../Footer/Footer";
 import "./Booking.css";
 import { BookingOptions } from "./BookingOptions";
 import { useState } from "react";
+import StripeContainer from "../Stripe/StripeContainer";
 
 const Booking = () => {
 
@@ -62,6 +63,12 @@ const Booking = () => {
             setSeatSelections();
         }
         //setSeatSelections();
+
+    }
+
+    const [paymentForm, setPaymentForm] = useState('d-none');
+    const showPaymentForm = () => {
+       setPaymentForm();
 
     }
 
@@ -236,7 +243,13 @@ const Booking = () => {
                         </tbody>
                     </table>
                     <div className="row justify-content-end mb-3">
-                        <button className="btn btn-primary col-2" href="/paymentForm">Purchase Now</button>
+                        <button className="btn btn-primary col-2" onClick={showPaymentForm}>Confirm</button>
+                    </div>
+                </div>
+
+                <div className={`row justify-content-center ${paymentForm}`}>
+                    <div className="col-6">
+                        <StripeContainer totalCost={totalCost} />
                     </div>
                 </div>
 
