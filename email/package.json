@@ -1,0 +1,27 @@
+{
+  "name": "qa-cinema-emailer",
+  "version": "1.0.0",
+  "description": "QA-Software Project QA Cinema App Emailer App Using Nodemailer.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erhnaks/QA-Cinema-Nodemailer-Server.git"
+  },
+  "author": "Erhan Aksu - Team Foxtrot",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/erhnaks/QA-Cinema-Nodemailer-Server/issues"
+  },
+  "homepage": "https://github.com/erhnaks/QA-Cinema-Nodemailer-Server#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "concurrently": "^7.3.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "nodemailer": "^6.7.7"
+  }
+}
