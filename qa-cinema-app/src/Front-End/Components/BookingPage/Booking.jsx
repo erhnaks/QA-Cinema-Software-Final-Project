@@ -26,6 +26,7 @@ const Booking = () => {
     const createTicket = (e) => {
         setSeatId(e.currentTarget.id);
         e.currentTarget.className = 'seat sold';
+        e.currentTarget.disabled = true;
         setTicket([...ticket, {
             id: ticket.length,
             seat: e.currentTarget.id,
