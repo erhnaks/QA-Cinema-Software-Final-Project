@@ -53,16 +53,11 @@ const Booking = () => {
         setTicketPrice(e.target.value);
     }
 
-    // if (movieId != null && showingTime != null && ticketPrice != null) {
-    //     console.log("Test: " + movieId);
-    //     setSeatSelections('');
-    // }
-
+    
     const ShowSeats = () => {
         if (movieId != null && showingTime != null && ticketPrice != null) {
             setSeatSelections();
         }
-        //setSeatSelections();
 
     }
 
@@ -249,7 +244,7 @@ const Booking = () => {
 
                 <div className={`row justify-content-center ${paymentForm}`}>
                     <div className="col-6">
-                        <StripeContainer totalCost={totalCost} />
+                        <StripeContainer totalCost={totalCost} ticket={ticket}/>
                     </div>
                 </div>
 

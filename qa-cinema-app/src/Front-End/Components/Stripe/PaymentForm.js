@@ -28,6 +28,7 @@ const PaymentForm = (props) => {
     const stripe = useStripe();
     const elements = useElements();
     const totalCost = props.totalCost * 100;
+    const ticket = props.ticket;
 
     const handleSubmit = async (event) => {
         event.preventDefault();
@@ -74,6 +75,12 @@ const PaymentForm = (props) => {
             :
             <div>
                 <h2>Your Movie has been booked.</h2>
+                {ticket.map(ticket => (
+                                <>
+                                    <h3>{ticket.id + 1}: {ticket.movieName} at {ticket.showingTime}, Seat: {ticket.seat}</h3>
+                                </>
+
+                            ))}
             </div>
         }
         </>

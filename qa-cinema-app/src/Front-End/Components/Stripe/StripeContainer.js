@@ -10,10 +10,11 @@ const stripeTestPromise = loadStripe(PUBLIC_KEY);
 const StripeContainer = (props) => {
 
     const totalCost = props.totalCost;
+    const ticket = props.ticket;
 
 return (
     <Elements stripe={stripeTestPromise}>
-        <PaymentForm totalCost={totalCost}/>
+        <PaymentForm totalCost={totalCost} ticket={ticket} />
     </Elements>
 )
 
