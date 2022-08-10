@@ -9,7 +9,8 @@
   font-weight: bolder;
   font-family: Arial, Helvetica, sans-serif;
   font-style: italic;
-  /* color: aliceblue; */
+  /* color: aliceblue; */  
+
 }
 
 #home_title_card {
@@ -18,18 +19,21 @@
   font-family: Arial, Helvetica, sans-serif;
   font-size: x-large;
   font-style: italic;
+  border-radius: 35px;
 }
 
 #cinema_img {
   width: 900px;
   height: auto;
   float: right;
-  margin-left: 40px;
-  border-radius: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 25px;
 }
 
 .card-body {
   margin-left: 5%;
   width: 260px;
+  
 }
 
