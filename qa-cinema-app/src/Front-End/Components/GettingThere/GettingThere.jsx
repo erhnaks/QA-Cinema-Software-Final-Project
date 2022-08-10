@@ -14,34 +14,16 @@ const GettingThere = () => {
 
             <br></br>
 
-            <div className="card col-4 p-3 drop-shadow">
-            {/* Image  */}
-            <h3 class="text-center">Spend your night at<br></br>QA Cinema</h3>
-            <img src= "https://i.pinimg.com/originals/69/bf/c9/69bfc969d20e10ca2444e21d5c69f5aa.jpg"></img>
+            <div className="row d-flex justify-content-around">
+            <div className="card col-5 p-4 drop-shadow">
+            {/* External Cinema Image  */}
+            <h3 class="text-center">Spend your night at QA Cinema</h3>
+            <br></br>
+            <img src= "https://i.pinimg.com/originals/69/bf/c9/69bfc969d20e10ca2444e21d5c69f5aa.jpg" alt="External Cinema"></img>
             </div>
 
             <br></br>
-
-            <div className="card col-4 p-3 drop-shadow" id="qa-location">
-            {/* Location */}
-            <h3>Where to Find Us</h3>
-            International House, 1 St Katharine's Way, London E1W 1UN
-            <div>
-              <iframe
-                width="100%"
-                height="300"
-                id="gmap_canvas"
-                src="https://maps.google.com/maps?q=e1w1UN&t=&z=15&ie=UTF8&iwloc=&output=embed"
-                frameborder="0"
-                scrolling="no"
-                marginheight="0"
-                marginwidth="0"
-                title="Location"
-              ></iframe>
-            </div>
-            </div>
-
-            <div className="row d-flex justify-content-around">
+            
           <div className="card col-6 p-3 drop-shadow">
             {/* Getting There */}
             <h2 class="text-center">Getting there by Train:</h2>
@@ -62,14 +44,46 @@ const GettingThere = () => {
             <h5 class="text-center">
             The main entrance to QA Cinema is 1 St Katharine S Way, London, E1W 1UN. There is car parking available.
             </h5>
-            
           </div>
           </div>
+
+          <br></br>
+
+          <div className="row d-flex justify-content-around">
+          <div className="card col-6 p-4 drop-shadow" id="qa-location">
+            {/* Location */}
+            <h3>Where to Find Us</h3>
+            International House, 1 St Katharine's Way, London E1W 1UN
+            <br></br><br></br>
+            <div>
+              <iframe
+                width="100%"
+                height="300"
+                id="gmap_canvas"
+                src="https://maps.google.com/maps?q=e1w1UN&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                alt="Map"
+                frameborder="0"
+                scrolling="no"
+                marginheight="0"
+                marginwidth="0"
+                title="Location"
+              ></iframe>
+            </div>
+            </div>
+
+            <div className="card col-5 p-3 drop-shadow">
+            {/* Car Park Image  */}
+            <h3 class="text-center">Free Parking Available</h3>
+            <br></br>
+            <img src= "https://ichef.bbci.co.uk/news/976/cpsprodpb/DE54/production/_85661965_avantphoto-ncp-bbc-9.jpg" alt="Car Park"></img>
+            </div>
+            </div>
 
 
 
 
         </div>
+        
         
         <br></br>
         <br></br>
