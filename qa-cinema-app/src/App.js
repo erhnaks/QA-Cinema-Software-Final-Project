@@ -11,6 +11,7 @@ import Classifications from "./Front-End/Components/Classifications/Classificati
 import Screens from "./Front-End/Components/ScreensPage/Screens";
 import GettingThere from "./Front-End/Components/GettingThere/GettingThere";
 import "./style.css";
+import Search from "./Front-End/Components/Search/Search";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Route path="/classifications" element={<Classifications />} />
           <Route path="/screens" element={<Screens />} />
           <Route path="/gettingthere" element={<GettingThere />} />
+          <Route path="/search" element={<Search />} />
         </Routes>
       </Router>
     </div>
