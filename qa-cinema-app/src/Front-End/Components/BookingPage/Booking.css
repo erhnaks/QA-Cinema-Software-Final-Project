@@ -124,3 +124,11 @@ body{
 #BookSeats {
   width: 30%;
 }
+
+label{
+  color: white;
+}
+
+li > small {
+  color: white;
+}

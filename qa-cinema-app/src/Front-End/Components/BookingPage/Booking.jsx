@@ -146,7 +146,7 @@ const Booking = () => {
                     </li> */}
 
                 </ul>
-                <div className={`row d-flex justify-content-center align-items-center ${seatSelections}`}>
+                <div id="screensContainer" className={`row d-flex justify-content-center align-items-center ${seatSelections}`}>
                     <div className="booking-container col-5">
                         <div className="screen"></div>
 
