@@ -30,11 +30,6 @@ function App() {
           <Route path="/classifications" element={<Classifications />} />
           <Route path="/screens" element={<Screens />} />
           <Route path="/paymentForm" element={<StripeContainer />} />
-
-
-          <Route path="/paymentForm" element={<StripeContainer />} />
-          <Route path="/gettingthere" element={<GettingThere />} />
-          <Route path="/paymentForm" element={<StripeContainer />} />
           <Route path="/gettingthere" element={<GettingThere />} />
         </Routes>
       </Router>
