@@ -84,7 +84,7 @@ const AboutUs = () => {
       </Card.Body>
     </Card>
     <br></br>
-    <br></br> */}
+    <br></br>
     </div>
     </div>
 <Footer></Footer>

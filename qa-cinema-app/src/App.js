@@ -10,12 +10,9 @@ import Places from "./Front-End/Components/Places/Places";
 import OpeningTime from "./Front-End/Components/OpeningTime/OpeningTime";
 import Classifications from "./Front-End/Components/Classifications/Classifications";
 import Screens from "./Front-End/Components/ScreensPage/Screens";
-<<<<<<< HEAD
 import AboutUs from "./Front-End/Components/AboutUs/AboutUs";
-=======
 import StripeContainer from "./Front-End/Components/Stripe/StripeContainer";
 import GettingThere from "./Front-End/Components/GettingThere/GettingThere";
->>>>>>> abe7a47175fbdd7700612b55029f2e62d431f86d
 import "./style.css";
 
 function App() {
