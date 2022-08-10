@@ -11,4 +11,4 @@ var PostComment = mongoose.model(
   }
 );
 
-module.exports = PostComment;
+module.exports = { PostComment };
