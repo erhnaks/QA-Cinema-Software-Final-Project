@@ -9,49 +9,50 @@ function Search() {
   return (
     <>
       <Header></Header>
-
-      <div className="templateContainer">
-        <div className="searchInput_Container">
-          <input
-            id="searchInput"
-            type="text"
-            placeholder="Search here for movies..."
-            onChange={(event) => {
-              setSearchTerm(event.target.value);
-            }}
-          />
-        </div>
-        <div className="template_Container">
-          {data
-            .filter((val) => {
-              if (searchTerm == "") {
-                return val;
-              } else if (
-                val.title.toLowerCase().includes(searchTerm.toLowerCase())
-              ) {
-                return val;
-              }
-            })
-            .map((val) => {
-              return (
-                <div className="template" key={val.img}>
-                  <img src={val.img} alt="" />
-                  <h3>{val.title}</h3>
-                  <hr></hr>
-                  <p className="description">{val.description}</p>
-                  <hr></hr>
-                  <p>Actors :</p>
-                  <p className="actors">{val.actors}</p>
-                  <hr></hr>
-                  <p className="director">Director : {val.director}</p>
-                  <hr></hr>
-                  <p className="runtime">Runtime : {val.runtime}</p>
-                  <hr></hr>
-                  <p className="rating">Rating : {val.rating}</p>
-                </div>
-              );
-            })}
-        </div>
+      <br></br>
+      <div className="searchInput_Container">
+        <input
+          id="searchInput"
+          type="text"
+          placeholder="Search term..."
+          onChange={(event) => {
+            setSearchTerm(event.target.value);
+          }}
+        />
+      </div>
+      <div className="container">
+        <hr></hr>
+        {data
+          .filter((val) => {
+            if (searchTerm == "") {
+              return val;
+            } else if (
+              val.title.toLowerCase().includes(searchTerm.toLowerCase())
+            ) {
+              return val;
+            }
+          })
+          .map((val) => {
+            return (
+              <div className="card-body">
+              <div className="template" key={val.img}>
+                <img className="img" src={val.img} alt="" />
+                <h3>{val.title}</h3>
+                <hr></hr>
+                <p className="description">{val.description}</p>
+                <hr></hr>
+                <p>Actors :</p>
+                <p className="actors">{val.actors}</p>
+                <hr></hr>
+                <p className="director">Director : {val.director}</p>
+                <hr></hr>
+                <p className="runtime">Runtime : {val.runtime}</p>
+                <hr></hr>
+                <p className="rating">Rating : {val.rating}</p>
+              </div>
+              </div>
+            );
+          })}
       </div>
       <Footer></Footer>
     </>

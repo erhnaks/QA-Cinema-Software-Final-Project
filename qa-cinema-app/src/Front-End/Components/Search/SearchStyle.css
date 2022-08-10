@@ -1,20 +1,47 @@
-
-.templateContainer {
-  margin: 2% 0;
-}
-.templateContainer > .searchInput_Container {
+.searchInput_Container input {
   display: flex;
+  padding: 10px;
+  width: 40%;
   align-items: center;
   justify-content: center;
   margin: 0 auto;
 }
-.templateContainer > .searchInput_Container input {
-  width: 60%;
-  padding: 10px;
-  outline: none;
+
+.template {
+  width: 200%;
 }
-.templateContainer .template_Container {
-  display: flex;
+
+.img {
+  height: 350px;
+  width: 255px;
+  padding: 1rem;
+  text-align: center;
+  
+  
+}
+
+.card-body{
+  width: 300px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+
+}
+
+/* .search_results{
+  width: 700px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+} */
+
+/* .templateContainer {
+  width: 700px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.template_Container {
   align-items: center;
   justify-content: center;
   margin: 0 auto;
@@ -22,9 +49,11 @@
 .templateContainer .template_Container .template {
   background-color: rgb(47, 29, 81);
   margin: 30px;
-  padding: 0px 20px;
-  
+  padding: 0px 25px;
 }
 .templateContainer .template_Container .template img {
-  height: 250px;
-}
+  width: 255px;
+  padding: 1rem;
+  margin-left: 65px;
+  position: center;
+} */
