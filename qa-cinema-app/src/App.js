@@ -6,6 +6,9 @@ import AboutPage from "./Front-End/Components/AboutPage/About";
 import Booking from "./Front-End/Components/BookingPage/Booking";
 import AllListings from "./Front-End/Components/ListingsPage/AllListings";
 import NewReleases from "./Front-End/Components/NewReleases/NewReleases";
+
+import Places from "./Front-End/Components/Places/Places";
+
 import OpeningTime from "./Front-End/Components/OpeningTime/OpeningTime";
 
 import Classifications from "./Front-End/Components/Classifications/Classifications";
@@ -23,11 +26,10 @@ function App() {
           <Route path="/contactUs" element={<ContactUs />} />
           <Route path="/booking" element={<Booking />} />
           <Route path="/listings" element={<AllListings />} />
+          <Route path="/places" element={<Places />} />
           <Route path="/openingtime" element={<OpeningTime />} />
           <Route path="/comingsoon" element={<NewReleases />} />
-
           <Route path="/classifications" element={<Classifications />} />
-
           <Route path="/screens" element={<Screens />} />
           <Route path="/paymentForm" element={<StripeContainer />} />
         </Routes>
