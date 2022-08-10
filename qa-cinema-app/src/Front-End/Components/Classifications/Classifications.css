@@ -1,5 +1,5 @@
 .accordion-button {
-  background-color: rgb(103, 165, 104) !important;
+  background-color: rgba(0, 48, 121, 0.699) !important;
 }
 
 .accordion-button:focus {
@@ -13,25 +13,21 @@
 .p-tag {
   font-weight: bold;
   font-size: larger;
-  color: #004050;
+  color: #ffffff;
   font-style: italic;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .h1-classifications {
   font-weight: bolder;
-  color: #004050;
+  color: #ffffff;
   font-style: italic;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .h5-tag {
   font-weight: bolder;
-  color: #004050;
+  color: #ffffff;
   font-style: italic;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-body {
-  background-color: #fbfefe;
 }

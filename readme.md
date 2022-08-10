@@ -1,4 +1,4 @@
-<img src="..\qa-cinema-app\src\Resources\images\logo.png" alt="ProjectLogo" width="200">
+<img src="qa-cinema-app\src\Resources\images\logo.png" alt="ProjectLogo" width="200">
 
 # **_QA CINEMAS - (QAC) - SOFTWARE FINAL - PROJECT_**
 
@@ -89,3 +89,4 @@ Jira Kanban board and GitHub was used for project management including GitHub Sm
 ## License
 
 This project is licensed under the MIT license - see the [LICENSE.md](LICENSE.md) file for details.
+

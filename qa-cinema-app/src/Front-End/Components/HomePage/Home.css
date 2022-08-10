@@ -1,6 +1,6 @@
 #header {
   text-align: center;
-  color: #004050;
+  /* color: #004050; */
   font-family: "Times New Roman", Times, serif;
 }
 
@@ -9,30 +9,31 @@
   font-weight: bolder;
   font-family: Arial, Helvetica, sans-serif;
   font-style: italic;
-  color: aliceblue;
+  /* color: aliceblue; */  
+
 }
 
 #home_title_card {
-  color: #004050;
+  /* color: #004050; */
   font-weight: 999;
   font-family: Arial, Helvetica, sans-serif;
   font-size: x-large;
   font-style: italic;
+  border-radius: 35px;
 }
 
 #cinema_img {
   width: 900px;
   height: auto;
   float: right;
-  margin-left: 40px;
-  border-radius: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 25px;
 }
 
 .card-body {
   margin-left: 5%;
   width: 260px;
+  
 }
 
-.body {
-  background-color: #9e791454;
-}

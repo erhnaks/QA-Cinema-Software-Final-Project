@@ -29,7 +29,7 @@ const ListingMovieDetails = ({
       </CardLink>
       <div className="modal-dialog modal-fullscreen-md-down">
         <Modal
-          className="modal-container custom-modal-modal"
+          className="modal-container custom-modal-modal bg-dark text-white"
           id="listing-movie-details"
           dialogClassName="modal-dialog"
           isOpen={modal}
@@ -43,18 +43,18 @@ const ListingMovieDetails = ({
 
               <div className="col-md-12">
                 <hr />
-                <h6>{description}</h6>
+                <h6 id="movie-director">{description}</h6>
                 <hr></hr>
                 <p id="movie-director">Directed By {director}</p>
-                <h5>Starring: </h5>
+                <h5 id="movie-director">Starring: </h5>
                 <br></br>
                 {actors.map((actor) => (
-                  <p id="movie-actor">{actor}</p>
+                  <p className="text-dark" id="movie-actor">{actor}</p>
                 ))}
                 <br />
                 <hr></hr>
-                <p id="movie-runtime">Runtime: {runtime}</p>
-                <p id="movie-rating">Rating: {rating}</p>
+                <p className="text-dark" id="movie-runtime">Runtime: {runtime}</p>
+                <p className="text-dark" id="movie-rating">Rating: {rating}</p>
               </div>
             </div>
           </ModalBody>
