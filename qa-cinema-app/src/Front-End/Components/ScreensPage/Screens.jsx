@@ -11,8 +11,9 @@ const Screens = () => {
     return (
         <>
             <Header></Header>
-            <div className='container fluid p-3'>
+            <div className='container p-3 mt-2 drop-shadow' id='screensContainer'>
                 <h1>Screens</h1>
+                <hr />
                 <div className='row'>
                     <h3>Standard Screen</h3>
                     <div className="col-6">
@@ -22,6 +23,7 @@ const Screens = () => {
                         <img src={screenStandard} alt='screen standard' width="100%"/>                   
                     </div>
                 </div>
+                <hr />
                 <div className='row'>
                     <h3>Luxe Screen</h3>
                     <div className="col-6">

@@ -15,9 +15,9 @@ const ContactUs = () => {
           <div className="row-md">
             <hr className="contactUs-header-p" />
             <br></br>
-            <h1>QA Cinema - Contact Us</h1>
+            <h1 id="contactUs-h1">QA Cinema - Contact Us</h1>
             <hr />
-            <p>
+            <p id="contactUs-p">
               Email us anytime and we'll get back to you as soon as possible.
             </p>
           </div>
