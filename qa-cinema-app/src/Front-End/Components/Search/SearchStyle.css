@@ -1,6 +1,6 @@
 
 .templateContainer {
-  margin: 5% 0;
+  margin: 2% 0;
 }
 .templateContainer > .searchInput_Container {
   display: flex;
@@ -9,7 +9,7 @@
   margin: 0 auto;
 }
 .templateContainer > .searchInput_Container input {
-  width: 50%;
+  width: 60%;
   padding: 10px;
   outline: none;
 }
@@ -20,9 +20,10 @@
   margin: 0 auto;
 }
 .templateContainer .template_Container .template {
-  background-color: rgb(128, 36, 36);
+  background-color: rgb(47, 29, 81);
   margin: 30px;
   padding: 0px 20px;
+  
 }
 .templateContainer .template_Container .template img {
   height: 250px;
