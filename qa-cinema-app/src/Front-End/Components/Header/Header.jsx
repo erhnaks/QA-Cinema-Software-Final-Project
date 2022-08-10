@@ -31,6 +31,7 @@ const Header = () => {
                 Mail Us
               </Nav.Link>
               <Nav.Link href="/classifications">Classifications</Nav.Link>
+              <Nav.Link href="/teamFoxtrot">Team Foxtrot</Nav.Link>
             </Nav>
           </Container>
         </Navbar>
