@@ -150,14 +150,7 @@ const Classifications = () => {
             </Accordion.Body>
           </Accordion.Item>
         </Accordion>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
+        
       </body>
       <Footer></Footer>
     </React.Fragment>
