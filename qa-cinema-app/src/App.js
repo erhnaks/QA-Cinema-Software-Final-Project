@@ -5,14 +5,12 @@ import HomePage from "./Front-End/Components/HomePage/Home";
 import AboutPage from "./Front-End/Components/AboutPage/About";
 import AllListings from "./Front-End/Components/ListingsPage/AllListings";
 import NewReleases from "./Front-End/Components/NewReleases/NewReleases";
-
 import Places from "./Front-End/Components/Places/Places";
-
 import OpeningTime from "./Front-End/Components/OpeningTime/OpeningTime";
-
 import Classifications from "./Front-End/Components/Classifications/Classifications";
-
 import Screens from "./Front-End/Components/ScreensPage/Screens";
+import "./style.css";
+
 
 function App() {
   return (

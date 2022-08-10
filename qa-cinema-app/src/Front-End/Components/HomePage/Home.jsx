@@ -13,7 +13,7 @@ const HomePage = () => {
   return (
     <>
       <Header></Header>
-      <body className="body">
+      <body>
         <br></br>
         <CarouselPage
           image1={movie1}
@@ -24,7 +24,7 @@ const HomePage = () => {
         <br></br>
 
         <div class="row">
-          <Card className="card-body" style={{ width: "18rem" }}>
+          <Card className="card-body bg-dark text-white" style={{ width: "18rem" }}>
             <Card.Body>
               <Card.Title id="home_title_card">
                 Welcome to QA Cinema!
