@@ -1,3 +1,33 @@
+<img src="..\qa-cinema-app\src\Resources\images\logo.png" alt="ProjectLogo" width="200">
+
+# **_QA CINEMA - SOFTWARE FINAL - PROJECT_**
+
+## Contents:
+* [Project Brief](#Project-Brief)  
+* [Getting Started](#Getting-Started)
+* [Prerequisites](#Prerequisites)  
+* [Installing](#Installing)
+* [MySQL Database](#MySQL-Database)
+* [Project Management](#Project-Management)
+* [Tests](#Tests)
+* [SonarQube](#SonarQube)
+* [Deployment](#Deployment)
+* [Front End Visual](#Front-End-Visual)
+* [Built With](#Built-With)
+* [Versioning](#Versioning)
+* [Authors](#Authors)
+* [License](#License)
+* [Acknowledgements](#Acknowledgements)
+
+## Created by Team Foxtrot
+
+
+
+
+
+
+/////////////////////////////////////////////////////
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
