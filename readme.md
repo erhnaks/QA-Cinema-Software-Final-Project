@@ -1,4 +1,4 @@
-<img src="..\qa-cinema-app\src\Resources\images\logo.png" alt="ProjectLogo" width="200">
+<img src="qa-cinema-app\src\Resources\images\logo.png" alt="ProjectLogo" width="200">
 
 # **_QA CINEMAS - (QAC) - SOFTWARE FINAL - PROJECT_**
 
