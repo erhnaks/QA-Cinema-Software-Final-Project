@@ -10,6 +10,10 @@ p {
     color: white;
 }
 
+a:hover {
+    color: white;
+}
+
 #screensContainer{
     background-color: rgba(255, 255, 255, 0.3);
 }

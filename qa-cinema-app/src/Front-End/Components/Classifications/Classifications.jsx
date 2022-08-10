@@ -16,10 +16,10 @@ const Classifications = () => {
       <Header></Header>
 
       <body>
+        <div className="container-fluid" id="screensContainer">
         <h1 className="h1-classifications">Classifications</h1>
 
         <hr></hr>
-        <br></br>
         <p className="p-tag">
           All film classification decisions are based on the British Board of
           Film Classification's (BBFC) published and regularly updated
@@ -44,12 +44,11 @@ const Classifications = () => {
           </a>
         </p>
         <hr></hr>
-        <br></br>
         <h5 className="h5-tag">
           Please click on each classification for more information!
         </h5>
         <br></br>
-
+        </div>
         <Accordion defaultActiveKey="">
           <Accordion.Item eventKey="0">
             <Accordion.Header>TBC- To Be Confirmed </Accordion.Header>
@@ -66,7 +65,7 @@ const Classifications = () => {
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="1">
-            <Accordion.Header> 
+            <Accordion.Header>
               U - Universal - Suitable For All Ages
             </Accordion.Header>
             <Accordion.Body>
@@ -150,7 +149,7 @@ const Classifications = () => {
             </Accordion.Body>
           </Accordion.Item>
         </Accordion>
-        
+
       </body>
       <Footer></Footer>
     </React.Fragment>

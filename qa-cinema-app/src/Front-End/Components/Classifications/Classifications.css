@@ -13,25 +13,27 @@
 .p-tag {
   font-weight: bold;
   font-size: larger;
-  color: #004050;
+  color: #ffffff;
   font-style: italic;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .h1-classifications {
   font-weight: bolder;
-  color: #004050;
+  color: #ffffff;
   font-style: italic;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .h5-tag {
   font-weight: bolder;
-  color: #004050;
+  color: #ffffff;
   font-style: italic;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-body {
-  background-color: #fbfefe;
-}
+/* .accordion-button:not(.collapsed) {
+  color: #ffffff;
+  background-color: #29008a;
+  box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+} */
