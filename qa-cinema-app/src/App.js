@@ -33,11 +33,6 @@ function App() {
           <Route path="/teamFoxtrot" element={<AboutUs />} />
 
           <Route path="/paymentForm" element={<StripeContainer />} />
-
-
-          <Route path="/paymentForm" element={<StripeContainer />} />
-          <Route path="/gettingthere" element={<GettingThere />} />
-          <Route path="/paymentForm" element={<StripeContainer />} />
           <Route path="/gettingthere" element={<GettingThere />} />
         </Routes>
       </Router>
