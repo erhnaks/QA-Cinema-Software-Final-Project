@@ -20,7 +20,7 @@ const AboutUs = () => {
           <h4>Billy M</h4></Card.Title>
         <Card.Subtitle className="mb-2 text-muted">Product Owner</Card.Subtitle>
         <Card.Text>
-         <p>I am a repo destroyer sent from the future to kill github</p>
+         <p>Billy enjoys long walks in the countryside and outdoor sports. </p>
         </Card.Text>
         <Card.Link href="https://github.com/BillyMillsGitHub" target="_blank">GitHub Account</Card.Link>
         <Card.Link href="http://localhost:3027" target="_blank">Contact Us</Card.Link>
@@ -36,7 +36,7 @@ const AboutUs = () => {
           <h4>Erhan A</h4></Card.Title>
         <Card.Subtitle className="mb-2 text-muted">Development Team</Card.Subtitle>
         <Card.Text>
-          <p>Erhan enjoys cooking, driving and coding...</p>
+          <p>Erhan enjoys cooking, driving and coding.</p>
         </Card.Text>
         <Card.Link href="https://github.com/erhnaks" target="_blank">GitHub Account</Card.Link>
         <Card.Link href="http://localhost:3027" target="_blank">Contact Us</Card.Link>
@@ -51,7 +51,7 @@ const AboutUs = () => {
           <h4>Muhammad R</h4></Card.Title>
       <Card.Subtitle className="mb-2 text-muted">Development Team</Card.Subtitle>
         <Card.Text>
-          <p>Muhammad enjoys football and could have made it to the big leagues if he hadn't of torn his ACL.</p>
+          <p>Muhammad enjoys football and travelling .</p>
         </Card.Text>
         <Card.Link href="https://github.com/MuhammadShayekurRahman" target="_blank">GitHub Account</Card.Link>
         <Card.Link href="http://localhost:3027" target="_blank">Contact Us</Card.Link>
@@ -77,7 +77,7 @@ const AboutUs = () => {
           <h4>Shakir A</h4></Card.Title>
         <Card.Subtitle className="mb-2 text-muted">Development Team</Card.Subtitle>
         <Card.Text>
-        <p>Shakir enjoys football and made it to the big leagues because he didn't tear his ACL.</p>
+        <p>Shakir enjoys football and making TikToks.</p>
         </Card.Text>
         <Card.Link href="https://github.com/shakir-ali-Github" target="_blank">GitHub Account</Card.Link>
         <Card.Link href="http://localhost:3027" target="_blank">Contact Us</Card.Link>
