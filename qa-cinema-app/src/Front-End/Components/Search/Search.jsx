@@ -8,7 +8,7 @@ function Search() {
     <>
       <div className="templateContainer">
         <div className="searchInput_Container">
-          <input id="searchInput" type="text" placeholder="Search here..." onChange={(event) => {
+          <input id="searchInput" type="text" placeholder="Search here for movies..." onChange={(event) => {
             setSearchTerm(event.target.value);
           }} />
         </div>
@@ -24,10 +24,18 @@ function Search() {
               })
               .map((val) => {
                 return(
-                  <div className="template" key={val.id}>
+                  <div className="template" key={val.img}>
                       <img src={val.img} alt="" />
                       <h3>{val.title}</h3>
-                      <p className="description">${val.description}</p>
+                      <hr></hr>
+                      <p className="description">{val.description}</p>
+                      <hr></hr>
+                      <p>Actors :</p>
+                      <p className="actors">{val.actors}</p>
+                      <hr></hr>
+                      <p className="director">Director : {val.director}</p>
+                      <hr></hr>
+                      <p className="rating">Rating : {val.rating}</p>
                   </div> 
                 )
               })

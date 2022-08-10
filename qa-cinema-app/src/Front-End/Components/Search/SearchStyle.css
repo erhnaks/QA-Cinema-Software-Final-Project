@@ -1,6 +1,4 @@
-body {
-  background-color: rgb(209, 204, 204);
-}
+
 .templateContainer {
   margin: 5% 0;
 }
@@ -22,7 +20,7 @@ body {
   margin: 0 auto;
 }
 .templateContainer .template_Container .template {
-  background-color: white;
+  background-color: rgb(128, 36, 36);
   margin: 30px;
   padding: 0px 20px;
 }
