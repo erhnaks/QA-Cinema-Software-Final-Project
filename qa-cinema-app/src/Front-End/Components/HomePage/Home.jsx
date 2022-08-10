@@ -36,8 +36,8 @@ const HomePage = () => {
               <Card.Text className="home_page_card">
                 QA cinema is dedicated to bringing movies to life through our
                 innovative sound system and high-quality screens. Watch the
-                latest movies with your feet up in our new renovated screens.
-                Our highly rated screens include recliner seating and cupholders
+                latest movies with your feet up in our newly renovated screens.
+                Our highly rated cinema rooms include recliner seating and cupholders
                 as well as a portable tray. Sweet or sour? We have everything
                 taken care of to ensure a great experience at QA cinema. Book
                 now to experience the magic.
