@@ -15,7 +15,7 @@ const AllListings = () => {
           <h1>Movies on Show NOW!!! </h1>
           <hr id="hr" />
           <p>
-            Welcome to the QA Cinema! Here you can find all of movies that are
+            Welcome to the QA Cinema! Here you can find all of the movies that are currently
             on show! Book your Ticket Now!
           </p>
         </div>

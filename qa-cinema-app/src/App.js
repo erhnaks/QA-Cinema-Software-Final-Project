@@ -10,6 +10,7 @@ import Places from "./Front-End/Components/Places/Places";
 import OpeningTime from "./Front-End/Components/OpeningTime/OpeningTime";
 import Classifications from "./Front-End/Components/Classifications/Classifications";
 import Screens from "./Front-End/Components/ScreensPage/Screens";
+import AboutUs from "./Front-End/Components/AboutUs/AboutUs";
 import StripeContainer from "./Front-End/Components/Stripe/StripeContainer";
 import GettingThere from "./Front-End/Components/GettingThere/GettingThere";
 import "./style.css";
@@ -30,11 +31,8 @@ function App() {
           <Route path="/comingsoon" element={<NewReleases />} />
           <Route path="/classifications" element={<Classifications />} />
           <Route path="/screens" element={<Screens />} />
-          <Route path="/paymentForm" element={<StripeContainer />} />
+          <Route path="/teamFoxtrot" element={<AboutUs />} />
 
-
-          <Route path="/paymentForm" element={<StripeContainer />} />
-          <Route path="/gettingthere" element={<GettingThere />} />
           <Route path="/paymentForm" element={<StripeContainer />} />
           <Route path="/gettingthere" element={<GettingThere />} />
           <Route path="/search" element={<Search />} />
