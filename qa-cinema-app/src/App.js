@@ -13,6 +13,8 @@ import OpeningTime from "./Front-End/Components/OpeningTime/OpeningTime";
 import Classifications from "./Front-End/Components/Classifications/Classifications";
 
 import Screens from "./Front-End/Components/ScreensPage/Screens";
+import AboutUs from "./Front-End/Components/AboutUs/AboutUs";
+
 
 function App() {
   return (
@@ -28,6 +30,8 @@ function App() {
           <Route path="/comingsoon" element={<NewReleases />} />
           <Route path="/classifications" element={<Classifications />} />
           <Route path="/screens" element={<Screens />} />
+          <Route path="/teamFoxtrot" element={<AboutUs />} />
+
         </Routes>
       </Router>
     </div>
