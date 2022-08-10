@@ -14,6 +14,7 @@ import AboutUs from "./Front-End/Components/AboutUs/AboutUs";
 import StripeContainer from "./Front-End/Components/Stripe/StripeContainer";
 import GettingThere from "./Front-End/Components/GettingThere/GettingThere";
 import "./style.css";
+import Search from "./Front-End/Components/Search/Search";
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
 
           <Route path="/paymentForm" element={<StripeContainer />} />
           <Route path="/gettingthere" element={<GettingThere />} />
+          <Route path="/search" element={<Search />} />
         </Routes>
       </Router>
     </div>

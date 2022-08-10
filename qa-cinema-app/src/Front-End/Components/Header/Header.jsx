@@ -10,7 +10,12 @@ const Header = () => {
     <header className="container-fluid">
       <>
         <div className="d-flex flex-row justify-content-center align-items-center">
-          <img className="mx-4 px-4" id="logo" src={logo} alt="www.qacinema.com" />
+          <img
+            className="mx-4 px-4"
+            id="logo"
+            src={logo}
+            alt="www.qacinema.com"
+          />
           <h1 id="header_h1">QA Cinema</h1>
         </div>
 
@@ -18,7 +23,6 @@ const Header = () => {
           <Container>
             <Navbar.Brand href="/">Home</Navbar.Brand>
             <Nav className="me-auto">
-
               <Nav.Link href="/listings">Listings</Nav.Link>
               <Nav.Link href="/comingsoon">New Releases</Nav.Link>
               <Nav.Link href="/booking">Booking</Nav.Link>
@@ -31,6 +35,7 @@ const Header = () => {
                 Mail Us
               </Nav.Link>
               <Nav.Link href="/classifications">Classifications</Nav.Link>
+              <Nav.Link href="/search">Search Movies</Nav.Link>
               <Nav.Link href="/teamFoxtrot">Team Foxtrot</Nav.Link>
             </Nav>
           </Container>
