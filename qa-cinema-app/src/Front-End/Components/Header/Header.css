@@ -8,6 +8,7 @@
   /* font-style: italic; */
   /* font-family: Georgia, "Times New Roman", Times, serif; */
   font-family: 'Righteous', cursive;
+  text-shadow:1px 1px 8px #fff, 1px 1px 8px rgb(63, 129, 253);
 }
 
 #logo {
