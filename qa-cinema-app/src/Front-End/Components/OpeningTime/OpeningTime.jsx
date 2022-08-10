@@ -51,7 +51,7 @@ const OpeningTime = () => {
             <h3 class="text-center">What are you waiting for?<br></br>Visit Us Today</h3>
             <h8 class="text-center">International House, 1 St Katharine's Way, London E1W 1UN</h8>
             <br/>
-            <img src= "https://images.pexels.com/photos/3537844/pexels-photo-3537844.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"></img>
+            <img src= "https://images.pexels.com/photos/3537844/pexels-photo-3537844.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Popcorn"></img>
           </div>
     </div>
     <br></br>
