@@ -11,8 +11,8 @@ import OpeningTime from "./Front-End/Components/OpeningTime/OpeningTime";
 import Classifications from "./Front-End/Components/Classifications/Classifications";
 import Screens from "./Front-End/Components/ScreensPage/Screens";
 import StripeContainer from "./Front-End/Components/Stripe/StripeContainer";
+import GettingThere from "./Front-End/Components/GettingThere/GettingThere";
 import "./style.css";
-
 
 function App() {
   return (
@@ -29,7 +29,11 @@ function App() {
           <Route path="/comingsoon" element={<NewReleases />} />
           <Route path="/classifications" element={<Classifications />} />
           <Route path="/screens" element={<Screens />} />
+<<<<<<< HEAD
           <Route path="/paymentForm" element={<StripeContainer />} />
+=======
+          <Route path="/gettingthere" element={<GettingThere />} />
+>>>>>>> c7943d71fc3a5c70cf532d0233fcaa14984894e0
         </Routes>
       </Router>
     </div>

@@ -24,6 +24,7 @@ const Header = () => {
               <Nav.Link href="/booking">Booking</Nav.Link>
               <Nav.Link href="/openingtime">Opening Times</Nav.Link>
               <Nav.Link href="/screens">Screens</Nav.Link>
+              <Nav.Link href="/gettingthere">Getting There</Nav.Link>
               <Nav.Link href="/about">About Us</Nav.Link>
               <Nav.Link href="/places">Places To Go</Nav.Link>
               <Nav.Link href="http://localhost:3027/" target="_blank">
