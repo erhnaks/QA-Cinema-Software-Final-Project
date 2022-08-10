@@ -74,7 +74,7 @@ hr {
 }
 
 .card-body p {
-  color: rgb(12, 12, 12);
+  /* color: rgb(12, 12, 12); */
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   font-style: italic;
