@@ -11,9 +11,9 @@ const AboutUs = () => {
     <Header></Header>
     <br></br>
     <br></br>
-
+    <div className='container'>
     <div class='cards'>
-    <div className id="AboutUs-card">
+    <div className id="col-md-4">
     <Card style={{ width: '18rem' }}>
       <Card.Body>
         <Card.Title id="AboutUs-title">
@@ -27,6 +27,7 @@ const AboutUs = () => {
       </Card.Body>
     </Card>
 <br></br>
+</div>
 
 
     <Card style={{ width: '18rem' }}>
@@ -57,8 +58,6 @@ const AboutUs = () => {
       </Card.Body>
     </Card>
     <br></br>
-
-
     <Card style={{ width: '18rem' }}>
       <Card.Body>
       <Card.Title id="AboutUs-title">
@@ -72,8 +71,6 @@ const AboutUs = () => {
       </Card.Body>
     </Card>
     <br></br>
-
-
     <Card style={{ width: '18rem' }}>
       <Card.Body>
       <Card.Title id="AboutUs-title">
@@ -87,11 +84,9 @@ const AboutUs = () => {
       </Card.Body>
     </Card>
     <br></br>
-    <br></br>
+    <br></br> */}
     </div>
     </div>
-
-
 <Footer></Footer>
 </React.Fragment>
     </>

@@ -1,3 +1,26 @@
-#AboutUs-Header {
- 
+.grid {
+    display: block;
+    padding: 16px;
+}
+
+.col {
+    background-color: pink;
+    margin-bottom: 16px;
+    padding: 16px;
+}
+
+.p {
+    color: blue;
+}
+
+#div.card {
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.133) 0px 1px 3px 0px,
+
+}
+#div.card-body {
+    padding: 8px;
+    font-size: 12px;
+    line-height: 18px;
 }
