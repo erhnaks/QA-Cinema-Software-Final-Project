@@ -18,8 +18,10 @@ const Header = () => {
           <Container>
             <Navbar.Brand href="/">Home</Navbar.Brand>
             <Nav className="me-auto">
+
               <Nav.Link href="/listings">Listings</Nav.Link>
               <Nav.Link href="/comingsoon">New Releases</Nav.Link>
+              <Nav.Link href="/booking">Booking</Nav.Link>
               <Nav.Link href="/openingtime">Opening Times</Nav.Link>
               <Nav.Link href="/screens">Screens</Nav.Link>
               <Nav.Link href="/gettingthere">Getting There</Nav.Link>

@@ -25,7 +25,8 @@
   "scripts": {
     "start": "react-scripts start",
     "email-server": "cd .. && cd email && nodemon",
-    "dev": "concurrently -n client,e-mailServer -c cyan,red \"npm start\" \"npm run email-server\"",
+    "payment-server": "cd server && node index.js",
+    "dev": "concurrently -n client,e-mailServer,paymentServer -c cyan,red,blue \"npm start\" \"npm run email-server\" \"npm run payment-server\"",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
