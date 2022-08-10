@@ -16,7 +16,7 @@ const NewReleases = () => {
           <h1>New Releases are coming this Bank Holiday!!!</h1>
           <hr id="hr" />
           <p>
-            Welcome to the QA Cinema! Here you can find all of movies that are
+            Welcome to the QA Cinema! Here you can find all of the movies that are
             coming soon!!! Book your Tickets Now!
           </p>
         </div>
