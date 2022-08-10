@@ -51,7 +51,7 @@ const Classifications = () => {
         </div>
         <Accordion defaultActiveKey="">
           <Accordion.Item eventKey="0">
-            <Accordion.Header>TBC- To Be Confirmed </Accordion.Header>
+            <Accordion.Header><p>TBC- To Be Confirmed </p> </Accordion.Header>
             <Accordion.Body>
               <img src={tbc} alt="tbc"></img>
               <p></p>
@@ -65,8 +65,8 @@ const Classifications = () => {
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="1">
-            <Accordion.Header>
-              U - Universal - Suitable For All Ages
+            <Accordion.Header><p>
+              U - Universal - Suitable For All Ages</p>
             </Accordion.Header>
             <Accordion.Body>
               <img src={Universal} alt="universal"></img>
@@ -80,7 +80,7 @@ const Classifications = () => {
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="2">
-            <Accordion.Header>PG - Parental Guidance</Accordion.Header>
+            <Accordion.Header><p>PG - Parental Guidance</p></Accordion.Header>
             <Accordion.Body>
               <img src={PG} alt="PG"></img>
               <p></p>
@@ -94,8 +94,8 @@ const Classifications = () => {
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="3">
-            <Accordion.Header>
-              12A - 12 Years Old And With Parental Guidance
+            <Accordion.Header><p>
+              12A - 12 Years Old And With Parental Guidance </p>
             </Accordion.Header>
             <Accordion.Body>
               <img src={TwelveA} alt="twelve"></img>
@@ -116,8 +116,8 @@ const Classifications = () => {
           </Accordion.Item>
 
           <Accordion.Item eventKey="4">
-            <Accordion.Header>
-              15 - Suitable only for 15 years and over
+            <Accordion.Header><p>
+              15 - Suitable only for 15 years and over</p>
             </Accordion.Header>
             <Accordion.Body>
               <img src={fifteen} alt="fifteen"></img>
@@ -133,8 +133,8 @@ const Classifications = () => {
           </Accordion.Item>
 
           <Accordion.Item eventKey="5">
-            <Accordion.Header>
-              18 - Suitable only for 18 years and over
+            <Accordion.Header><p>
+              18 - Suitable only for 18 years and over </p>
             </Accordion.Header>
             <Accordion.Body>
               <img src={eighteen} alt="eighteen"></img>
