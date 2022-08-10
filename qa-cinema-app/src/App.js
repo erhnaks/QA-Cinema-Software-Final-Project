@@ -29,11 +29,9 @@ function App() {
           <Route path="/comingsoon" element={<NewReleases />} />
           <Route path="/classifications" element={<Classifications />} />
           <Route path="/screens" element={<Screens />} />
-<<<<<<< HEAD
           <Route path="/paymentForm" element={<StripeContainer />} />
-=======
           <Route path="/gettingthere" element={<GettingThere />} />
->>>>>>> c7943d71fc3a5c70cf532d0233fcaa14984894e0
+
         </Routes>
       </Router>
     </div>
