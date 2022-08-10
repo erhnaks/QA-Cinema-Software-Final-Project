@@ -78,5 +78,5 @@ app.post("/send", (req, res) => {
 });
 
 app.listen(3027, () =>
-  console.log("Mailer server is now at your service mighty Team-Foxtrot ")
+  console.log("Email server is listening on port 3027")
 );
