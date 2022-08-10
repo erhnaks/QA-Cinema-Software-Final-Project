@@ -1,0 +1,14 @@
+body {
+    background: linear-gradient(to right, #7209B7, #4361EE);
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: white;
+}
+/* .container {
+    background-color: black;
+}
+
+.container-fluid {
+    background-color: black;
+} */
