@@ -29,7 +29,7 @@ const GettingThere = () => {
             <h2 class="text-center">Getting there by Train:</h2>
             <hr />
             <h5 class="text-center">
-            Both Erhan and Billy Stations are around an 18 minute walk from the 
+            Both React and Mongoose Stations are around an 18 minute walk from the 
             Cinema with services running directly from all London areas.
             </h5>
             <br></br><br></br>
