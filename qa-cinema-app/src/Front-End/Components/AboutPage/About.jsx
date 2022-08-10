@@ -30,7 +30,7 @@ const AboutPage = () => {
         </div>
 
         <div className="row d-flex justify-content-around">
-          <div className="card col-6 p-3 drop-shadow">
+          <div className="card col-6 p-3 drop-shadow bg-dark text-white">
             {/* General Information about US */}
             <h3>Who We Are</h3>
             Founded in 1984, QA Cinemas are one of the best known cinema chains
@@ -45,11 +45,11 @@ const AboutPage = () => {
             experience!
           </div>
 
-          <div className="card col-4 p-3 drop-shadow" id="qa-location">
+          <div className="card col-4 p-3 bg-dark text-white drop-shadow" id="qa-location">
             {/* Location */}
             <h3>Where to Find Us</h3>
             International House, 1 St Katharine's Way, London E1W 1UN
-            <div>
+            <div className="mt-2">
               <iframe
                 width="100%"
                 height="300"
@@ -69,8 +69,9 @@ const AboutPage = () => {
           <div class="container mt-3 mb-4">
             <div class="row">
               <h2>Reviews</h2>
+              <hr />
               <div class="col-md-4">
-                <div class="card p-3">
+                <div class="card p-3 bg-dark text-white">
                   <p>
                     Wowww! What a beautiful cinema, Loved the location and the
                     ease of access. The staff were very friendly and I can't
@@ -98,7 +99,7 @@ const AboutPage = () => {
                 </div>
               </div>
               <div class="col-md-4">
-                <div class="card p-3">
+                <div class="card p-3 bg-dark text-white">
                   <p>
                     Now this is what im talking about, good cinema, good food,
                     and an amazing team. I truly felt at home sitting in those
@@ -126,7 +127,7 @@ const AboutPage = () => {
                 </div>
               </div>
               <div class="col-md-4">
-                <div class="card p-3">
+                <div class="card p-3 bg-dark text-white">
                   <p>
                     The vibe was amazing! Queues were a bit long but
                     understandable! This is THE go to cinema in London{" "}

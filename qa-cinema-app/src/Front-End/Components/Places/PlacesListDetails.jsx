@@ -42,19 +42,19 @@ import {
               <div className="col-md-12">
                 <hr />
                 {/* <h5>Description</h5> */}
-                <h6>{description}</h6>
+                <h6 id="movie-director">{description}</h6>
                 <hr></hr>
-                <p id="contactDetails">Contact Details {contactDetails}</p>
+                <p id="movie-director">Contact Details {contactDetails}</p>
                 
                 {/* <h5>Venue Type: </h5> */}
                 <br></br>
                 {/* {contactDetails.map((contactDetail) => (
                   <p id="movie-actor">{contactDetail}</p> */}
                 {/* ))} */}
-                <br />
+                
                 <hr></hr>
                 {/* <p id="places-venueType">Venue Type: {name}</p> */}
-                <p id="places-offers">Offers: {offers}</p>
+                <p id="movie-director">Offers: {offers}</p>
               </div>
             </div>
           </ModalBody>

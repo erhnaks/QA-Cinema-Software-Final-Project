@@ -6,15 +6,13 @@ import AboutPage from "./Front-End/Components/AboutPage/About";
 import Booking from "./Front-End/Components/BookingPage/Booking";
 import AllListings from "./Front-End/Components/ListingsPage/AllListings";
 import NewReleases from "./Front-End/Components/NewReleases/NewReleases";
-
 import Places from "./Front-End/Components/Places/Places";
-
 import OpeningTime from "./Front-End/Components/OpeningTime/OpeningTime";
-
 import Classifications from "./Front-End/Components/Classifications/Classifications";
-
 import Screens from "./Front-End/Components/ScreensPage/Screens";
 import StripeContainer from "./Front-End/Components/Stripe/StripeContainer";
+import "./style.css";
+
 
 function App() {
   return (

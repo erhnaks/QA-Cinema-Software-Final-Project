@@ -10,7 +10,7 @@ const Header = () => {
     <header className="container-fluid">
       <>
         <div className="d-flex flex-row justify-content-center align-items-center">
-          <img className="mx-4" id="logo" src={logo} alt="www.qacinema.com" />
+          <img className="mx-4 px-4" id="logo" src={logo} alt="www.qacinema.com" />
           <h1 id="header_h1">QA Cinema</h1>
         </div>
 
@@ -33,7 +33,6 @@ const Header = () => {
             </Nav>
           </Container>
         </Navbar>
-        <br></br>
       </>
     </header>
   );
