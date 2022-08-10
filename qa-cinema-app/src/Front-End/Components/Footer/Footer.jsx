@@ -10,7 +10,7 @@ const Footer = () => {
 
                     <div className="col-4"><h5>© 2022 Copyright: Team Foxtrot</h5></div>
 
-                    <div className='col-2'>
+                    <div className='col-3'>
                         <h5>Follow Us!</h5>
                         <ul style={{listStyleType: "none", margin: 0, padding: 0}}>
                             <li style={{float: "left"}}>
