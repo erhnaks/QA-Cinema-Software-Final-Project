@@ -1,6 +1,5 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
-
 import HomePage from "./Front-End/Components/HomePage/Home";
 import AboutPage from "./Front-End/Components/AboutPage/About";
 import Booking from "./Front-End/Components/BookingPage/Booking";
@@ -10,7 +9,7 @@ import Places from "./Front-End/Components/Places/Places";
 import OpeningTime from "./Front-End/Components/OpeningTime/OpeningTime";
 import Classifications from "./Front-End/Components/Classifications/Classifications";
 import Screens from "./Front-End/Components/ScreensPage/Screens";
-import AboutUs from "./Front-End/Components/AboutUs/AboutUs";
+import TeamFoxtrot from "./Front-End/Components/TeamFoxtrot/AboutUs";
 import StripeContainer from "./Front-End/Components/Stripe/StripeContainer";
 import GettingThere from "./Front-End/Components/GettingThere/GettingThere";
 import "./style.css";
@@ -30,7 +29,7 @@ function App() {
           <Route path="/comingsoon" element={<NewReleases />} />
           <Route path="/classifications" element={<Classifications />} />
           <Route path="/screens" element={<Screens />} />
-          <Route path="/teamFoxtrot" element={<AboutUs />} />
+          <Route path="/teamFoxtrot" element={<TeamFoxtrot />} />
 
           <Route path="/paymentForm" element={<StripeContainer />} />
           <Route path="/gettingthere" element={<GettingThere />} />
