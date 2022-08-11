@@ -24,7 +24,7 @@ function Search() {
         <hr></hr>
         {data
           .filter((val) => {
-            if (searchTerm == "") {
+            if (searchTerm === "") {
               return val;
             } else if (
               val.title.toLowerCase().includes(searchTerm.toLowerCase())
@@ -35,21 +35,21 @@ function Search() {
           .map((val) => {
             return (
               <div className="card-body">
-              <div className="template" key={val.img}>
-                <img className="img" src={val.img} alt="" />
-                <h3>{val.title}</h3>
-                <hr></hr>
-                <p className="description">{val.description}</p>
-                <hr></hr>
-                <p>Actors :</p>
-                <p className="actors">{val.actors}</p>
-                <hr></hr>
-                <p className="director">Director : {val.director}</p>
-                <hr></hr>
-                <p className="runtime">Runtime : {val.runtime}</p>
-                <hr></hr>
-                <p className="rating">Rating : {val.rating}</p>
-              </div>
+                <div className="template" key={val.img}>
+                  <img className="img" src={val.img} alt="" />
+                  <h3>{val.title}</h3>
+                  <hr></hr>
+                  <p className="description">{val.description}</p>
+                  <hr></hr>
+                  <p>Actors :</p>
+                  <p className="actors">{val.actors}</p>
+                  <hr></hr>
+                  <p className="director">Director : {val.director}</p>
+                  <hr></hr>
+                  <p className="runtime">Runtime : {val.runtime}</p>
+                  <hr></hr>
+                  <p className="rating">Rating : {val.rating}</p>
+                </div>
               </div>
             );
           })}

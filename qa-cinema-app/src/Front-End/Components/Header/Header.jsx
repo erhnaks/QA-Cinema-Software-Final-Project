@@ -37,6 +37,9 @@ const Header = () => {
               <Nav.Link href="/classifications">Classifications</Nav.Link>
               <Nav.Link href="/search">Search Movies</Nav.Link>
               <Nav.Link href="/teamFoxtrot">Team Foxtrot</Nav.Link>
+              <Nav.Link href="http://localhost:3100/PostComments" target="_blank">
+                Discussion Board
+              </Nav.Link>
             </Nav>
           </Container>
         </Navbar>

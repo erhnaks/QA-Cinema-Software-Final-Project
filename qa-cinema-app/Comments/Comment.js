@@ -9,6 +9,6 @@ var app = express();
 
 app.use(bodyParser.json());
 
-app.listen(4000, () => console.log("listening on port : 4000 "));
+app.listen(3100, () => console.log("listening on port : 3100 "));
 
 app.use("/PostComments", PostCommentRoutes);
