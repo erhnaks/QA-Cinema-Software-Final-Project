@@ -27,7 +27,7 @@ function Search() {
           <hr></hr>
           {data
             .filter((val) => {
-              if (searchTerm == "") {
+              if (searchTerm === "") {
                 return val;
               } else if (
                 val.title.toLowerCase().includes(searchTerm.toLowerCase())
