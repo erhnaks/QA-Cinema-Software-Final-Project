@@ -1,0 +1,73 @@
+[
+  {
+    "title": "Black Panther II",
+    "runtime": "2hr 15min",
+    "rating": "12A",
+    "img": "https://filmyhotspot.com/wp-content/uploads/2020/12/918811b5-efc1-46c8-8b4b-0eaf87658aca.jpg",
+    "showtime": "",
+    "description": "The nation of Wakanda is pitted against intervening world powers as they mourn the loss of their king T'Challa.",
+    "director": "Ryan Coogler",
+    "actors": ["Letitia Wright", "Lupita Nyongo'o", "Danai Gurira"],
+    "id": "blmv13131"
+  },
+
+  {
+    "title": "Shazam!",
+    "runtime": "2hr 29min",
+    "rating": "PG",
+    "img": "https://m.media-amazon.com/images/M/MV5BNTBmNjQ5MTUtMzMxMi00NTk1LWExYjEtMzNkZGE4MTFjNzlkXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg",
+    "showtime": "",
+    "description": "Shazam and his newly formed team must come together to face a new threat .",
+    "director": "David F. Sandberg",
+    "actors": ["Grace Caroline Currey", "Zachary Levi", "Helen Mirren"],
+    "id": "shmv14141"
+  },
+
+  {
+    "title": "Avatar II",
+    "runtime": "3hr 4min",
+    "rating": "12A",
+    "img": "https://m.media-amazon.com/images/M/MV5BMWFmYmRiYzMtMTQ4YS00NjA5LTliYTgtMmM3OTc4OGY3MTFkXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg",
+    "showtime": "",
+    "description": "Jake Sully lives with his newfound family formed on the planet of Pandora. Once a familiar threat returns to finish what was previously started, Jake must work with Neytiri and the army of the Na'vi race to protect their planet.",
+    "director": "James Cameron",
+    "actors": ["Michelle Yeoh", "Zoe Saldana", "Kate Winslet"],
+    "id": "avmv15151"
+  },
+
+  {
+    "title": "Nope",
+    "runtime": "2hr 10min",
+    "rating": "15",
+    "img": "https://m.media-amazon.com/images/M/MV5BMGIyNTI3NWItNTJkOS00MGYyLWE4NjgtZDhjMWQ4Y2JkZTU5XkEyXkFqcGdeQXVyNjY1MTg4Mzc@._V1_FMjpg_UX1000_.jpg",
+    "showtime": "",
+    "description": "The residents of a lonely gulch in inland California bear witness to an uncanny and chilling discovery.",
+    "director": "Jordan Peele",
+    "actors": ["Daniel Kaluuya", "Keke Palmer", "Brandon Perea"],
+    "id": "nomv16161"
+  },
+
+  {
+    "title": "Glass Onion",
+    "runtime": "2hr 29min",
+    "rating": "15",
+    "img": "https://m.media-amazon.com/images/M/MV5BNjQ1OTg2YjAtMWRkMS00NmE5LTllNGMtMzhlYzIxMGQ5NTU5XkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_FMjpg_UX1000_.jpg",
+    "showtime": "",
+    "description": "A sequel to the 2019 film Knives Out",
+    "director": "Rian Johnson",
+    "actors": ["Daniel Craig", "Jessica Henwick", "Ethan Hawke"],
+    "id": "glmv17171"
+  },
+
+  {
+    "title": "Black Adam",
+    "runtime": "2hr 20min",
+    "rating": "12A",
+    "img": "https://m.media-amazon.com/images/M/MV5BN2ZmYTlhNmMtODQ0OS00YWNiLWI1MmMtNzkwYWMzOGM4YWQxXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg",
+    "showtime": "",
+    "description": "Nearly 5000 years after he was bestowed with the almighty powers of the Egyptian gods and imprisoned just as quickly, Black Adam (Johnson) is freed from his earthly tomb, ready to unleash his unique form of justice on the modern world.",
+    "director": "Jaume Collet-Serra",
+    "actors": ["Dwayne Johnson", "Sarah Shahi", "Viola Davis"],
+    "id": "blmv18181"
+  }
+]

@@ -1,0 +1,73 @@
+[
+  {
+    "title": "Aquaman",
+    "runtime": "2hr 23min",
+    "rating": "12A",
+    "img": "https://m.media-amazon.com/images/M/MV5BOTk5ODg0OTU5M15BMl5BanBnXkFtZTgwMDQ3MDY3NjM@._V1_.jpg",
+    "showtime": "12:00  15:00 18:00 21:00",
+    "description": "The reluctant King of Atlantis is torn between his two homes as surface dwellers and the citizens of Atlantis collide.",
+    "director": "James Wan",
+    "actors": ["Jason Mamoa", "Amber Heard", "Nicole Kidman", "Patrick Wilson"],
+    "id": "aqmv12345"
+  },
+
+  {
+    "title": "Interstellar",
+    "runtime": "2hr 49min",
+    "rating": "12A",
+    "img": "https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
+    "showtime": "12:00  15:00 18:00 21:00",
+    "description": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+    "director": "Christopher Nolan",
+    "actors": ["Matthew McConaughey", "Anne Hathaway"],
+    "id": "inmv12121"
+  },
+
+  {
+    "title": "Exodus Gods",
+    "runtime": "2hr 30min",
+    "rating": "12A",
+    "img": "https://m.media-amazon.com/images/M/MV5BMjI3MDY0NjkxNl5BMl5BanBnXkFtZTgwNTM3NTA0MzE@._V1_.jpg",
+    "showtime": "12:00  15:00 18:00 21:00",
+    "description": "The defiant leader Moses rises up against Egyptian Pharaoh Ramses II, setting six hundred thousand slaves on a monumental journey of escape from Egypt and its terrifying cycle of deadly plagues.",
+    "director": "Ridley Scott",
+    "actors": ["Adam Cooper", "Bill Collage"],
+    "id": "exmv23232"
+  },
+
+  {
+    "title": "Transformers",
+    "runtime": "2hr 24min",
+    "rating": "12A",
+    "img": "https://m.media-amazon.com/images/M/MV5BNDg1NTU2OWEtM2UzYi00ZWRmLWEwMTktZWNjYWQ1NWM1OThjXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
+    "showtime": "12:00  15:00 18:00 21:00",
+    "description": "An ancient struggle between two Cybertronian races, the heroic Autobots and the evil Decepticons, comes to Earth, with a clue to the ultimate power held by a teenager.",
+    "director": "Michael Bay",
+    "actors": ["Shia LeBeouf", "Megan Fox", "Josh Duhamel"],
+    "id": "trmv34343"
+  },
+
+  {
+    "title": "Finding Nemo",
+    "runtime": "1hr 40min",
+    "rating": "U",
+    "img": "https://lumiere-a.akamaihd.net/v1/images/p_findingnemo_19752_05271d3f.jpeg?region=0%2C0%2C540%2C810",
+    "showtime": "12:00  15:00 18:00 21:00",
+    "description": "After his son is captured in the Great Barrier Reef and taken to Sydney, a timid clownfish sets out on a journey to bring him home.",
+    "director": "Andrew Stanton",
+    "actors": ["Albert Brooks", "Ellen DeGeneres", "Alexander Gould"],
+    "id": "fimv45454"
+  },
+
+  {
+    "title": "Shrek",
+    "runtime": "1hr 30min",
+    "rating": "U",
+    "img": "https://m.media-amazon.com/images/M/MV5BOGZhM2FhNTItODAzNi00YjA0LWEyN2UtNjJlYWQzYzU1MDg5L2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_FMjpg_UX1000_.jpg",
+    "showtime": "12:00  15:00 18:00 21:00",
+    "description": "A mean lord exiles fairytale creatures to the swamp of a grumpy ogre, who must go on a quest and rescue a princess for the lord in order to get his land back.",
+    "director": "Andrew Adamson",
+    "actors": ["Mike Myers", "Eddie Murphy", "Cameron Diaz"],
+    "id": "shmv89898"
+  }
+]

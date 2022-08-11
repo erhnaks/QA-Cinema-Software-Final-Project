@@ -1,0 +1,12 @@
+.image-carousel {
+  border-radius: 2px;
+}
+
+.carousel-caption {
+  font-weight: bolder;
+  font-size: 25px;
+  font-style: italic;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+

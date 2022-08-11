@@ -1,70 +1,91 @@
-# Getting Started with Create React App
+<img src="..\qa-cinema-app\src\Resources\images\logo.png" alt="ProjectLogo" width="200">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# **_QA CINEMAS - (QAC) - SOFTWARE FINAL - PROJECT_**
 
-## Available Scripts
+## Contents
 
-In the project directory, you can run:
+- [**_QA CINEMAS - (QAC) - SOFTWARE FINAL - PROJECT_**](#qa-cinemas---qac---software-final---project)
+  - [Contents](#contents)
+  - [**_Created by Team Foxtrot_**](#created-by-team-foxtrot)
+- [Project Brief](#project-brief)
+  - [**QA Cinema Application** - _Team Foxtrot_](#qa-cinema-application---team-foxtrot)
+  - [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installing](#installing)
+  - [Deployment](#deployment)
+  - [Project Management](#project-management)
+  - [Built With](#built-with)
+  - [Authors](#authors)
+    - [**_Team Foxtrot Members_**](#team-foxtrot-members)
+  - [License](#license)
 
-### `npm start`
+## **_Created by Team Foxtrot_**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Project Brief
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## **QA Cinema Application** - _Team Foxtrot_
 
-### `npm test`
+QA Cinema Application is a full stack MERN application, with the utilisation of the supporting tools, methodologies, and technologies, that encapsulates all fundamental and practical modules covered during my software specialism training with QA.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
 
-### `npm run build`
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Prerequisites
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Jira Kanban Board - Project Management
+- Git - Versioning
+- GitHub - Source Code Management
+- Following Tools Used:
+- MongoDB - Database Management
+- Node - Backend Programming Language
+- Express - API Management
+- React - Front End Programming Framework
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Installing
 
-### `npm run eject`
+- Please clone the repository
+- Open the code in with your chosen IDE (Team Foxtrot used VS Code)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Deployment
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Please open a desired terminal of your choice and make sure you are in the qa_cinemma directory.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+  Please run the following command to deploy the project;
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+  ```
+  npm install
+  npm start
+  ```
 
-## Learn More
+- Email server will start concurrently with the application.
+  You will be notified when the server is started on your terminal with a message from Team Foxtrot.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- The QA Cinema application will be deployed to live server and will be available on localhost port 3000 and port 3027 for Email.
+  Open [http://localhost:3000](http://localhost:3000) to view it in your browser or [http://localhost:3027](http://localhost:3027) for the email server.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Project Management
 
-### Code Splitting
+Jira Kanban board and GitHub was used for project management including GitHub Smart commits.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Built With
 
-### Analyzing the Bundle Size
+- [Jira](https://code.visualstudio.com/download)
+- [Visual Studio Code](https://code.visualstudio.com/download)
+- [Node](https://nodejs.org/en/)
+- [React documentation](https://reactjs.org/).
+- [React Bootstrapped](https://react-bootstrap.github.io/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Authors
 
-### Making a Progressive Web App
+### **_Team Foxtrot Members_**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- [Bill Mills](https://github.com/BillyMillsGitHub) - Roles = Product Owner
+- [Erhan Aksu](https://github.com/erhnaks) - Roles - Developer
+- [Muhammad Rahman](https://github.com/MuhammadShayekurRahman) - Roles - Developer
+- [Omar Malik](https://github.com/OmarMalikGithub) - Roles - Scrum Master
+- [Syed Shakir Ali](https://github.com/shakir-ali-Github) - Roles - Developer
 
-### Advanced Configuration
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT license - see the [LICENSE.md](LICENSE.md) file for details.
