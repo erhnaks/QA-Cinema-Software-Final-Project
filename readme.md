@@ -80,7 +80,7 @@ Jira Kanban board and GitHub was used for project management including GitHub Sm
 
 ### **_Team Foxtrot Members_**
 
-- [Bill Mills](https://github.com/BillyMillsGitHub) - Roles = Product Owner
+- [Billy Mills](https://github.com/BillyMillsGitHub) - Roles = Product Owner
 - [Erhan Aksu](https://github.com/erhnaks) - Roles - Developer
 - [Muhammad Rahman](https://github.com/MuhammadShayekurRahman) - Roles - Developer
 - [Omar Malik](https://github.com/OmarMalikGithub) - Roles - Scrum Master
