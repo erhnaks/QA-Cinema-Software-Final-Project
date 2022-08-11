@@ -20,13 +20,18 @@
   
 }
 
-.card-body{
+/* .list-group {
+  --bs-list-group-bg: black !important;
+} */
+
+
+/* .card-body{ 
   width: 300px;
   align-items: center;
   justify-content: center;
   margin: 0 auto;
 
-}
+} */
 
 /* .search_results{
   width: 700px;
