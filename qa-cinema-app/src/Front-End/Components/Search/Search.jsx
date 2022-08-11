@@ -39,11 +39,11 @@ function Search() {
               return (
       
                 <div className="col-3">
-                <div class="card bg-dark mb-3" style={{width: "18rem"}}>
-                  <img class="card-img-top" src={val.img} alt="pic" />
-                    <div class="card-body">
-                      <h5 class="card-title">{val.title}</h5>
-                      <p class="card-subtitle">{val.description}</p>
+                <div className="card bg-dark mb-3" style={{width: "18rem"}}>
+                  <img className="card-img-top" src={val.img} alt="pic" />
+                    <div className="card-body">
+                      <h5 className="card-title">{val.title}</h5>
+                      <p className="card-subtitle">{val.description}</p>
                       <hr/>
                       <p className="card-text">Actors: {val.actors}</p>
                       <p className="card-text">Director : {val.director}</p>

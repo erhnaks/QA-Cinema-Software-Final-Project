@@ -17,7 +17,7 @@ const AboutUs = () => {
         <br></br>
         <br></br>
         <div className="container">
-          <div class="row d-flex justify-content-between mb-3">
+          <div className="row d-flex justify-content-between mb-3">
             {/* <div className id="col-md-4"> */}
             <Card style={{ width: "18rem" }} className="bg-dark drop-shadow">
               <Card.Body>
@@ -25,7 +25,7 @@ const AboutUs = () => {
                   id="avatar"
                   variant="top"
                   src={billyAvatar}
-                  class="rounded-circle"
+                  className="rounded-circle"
                   width="70"
                 />
                 <Card.Title id="AboutUs-title">
@@ -60,7 +60,7 @@ const AboutUs = () => {
                   id="avatar"
                   variant="top"
                   src="https://icons.iconarchive.com/icons/jonathan-rey/star-wars-characters/256/R2D2-01-icon.png"
-                  class="rounded-circle"
+                  className="rounded-circle"
                   width="70"
                 />
                 <Card.Title id="AboutUs-title">
@@ -88,7 +88,7 @@ const AboutUs = () => {
                   id="avatar"
                   variant="top"
                   src={muhammadAvatar}
-                  class="rounded-circle"
+                  className="rounded-circle"
                   width="70"
                 />
                 <Card.Title id="AboutUs-title">
@@ -118,7 +118,7 @@ const AboutUs = () => {
                   id="avatar"
                   variant="top"
                   src={omarAvatar}
-                  class="rounded-circle"
+                  className="rounded-circle"
                   width="70"
                 />
                 <Card.Title id="AboutUs-title">
@@ -153,7 +153,7 @@ const AboutUs = () => {
                   id="avatar"
                   variant="top"
                   src={shakAvatar}
-                  class="rounded-circle"
+                  className="rounded-circle"
                   width="70"
                 />
 

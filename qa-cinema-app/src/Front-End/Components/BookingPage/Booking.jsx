@@ -220,7 +220,7 @@ const Booking = () => {
                 <div className="row">
                     <h4>Tickets:</h4>
 
-                    <table class="table table-hover table-dark">
+                    <table className="table table-hover table-dark">
                         <thead>
                             <tr>
                                 <th scope="col"></th>
