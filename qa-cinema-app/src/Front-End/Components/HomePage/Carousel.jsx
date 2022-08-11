@@ -66,7 +66,7 @@ const CarouselPage = ({ image1, image2, image3, image4 }) => {
 
   return (
     <Carousel
-      pause="false"
+      hover="false"
       activeIndex={activeIndex}
       next={next}
       previous={previous}

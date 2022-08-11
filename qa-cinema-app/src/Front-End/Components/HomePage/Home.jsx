@@ -23,7 +23,7 @@ const HomePage = () => {
         />
         <br></br>
 
-        <div class="row">
+        <div className="row">
           <Card className="card-body bg-dark text-white" style={{ width: "18rem" }}>
             <Card.Body>
               <Card.Title id="home_title_card">
