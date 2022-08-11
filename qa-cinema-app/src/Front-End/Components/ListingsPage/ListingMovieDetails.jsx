@@ -59,7 +59,7 @@ const ListingMovieDetails = ({
                   Runtime: {runtime}
                 </p>
                 <hr></hr>
-                <p className="text-dark" id="movie-rating">
+                <p className="text-dark" id="movie-showtime">
                   Show Time: {showtime}
                 </p>
                 <hr></hr>

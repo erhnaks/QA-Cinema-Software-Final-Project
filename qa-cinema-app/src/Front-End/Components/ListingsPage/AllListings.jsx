@@ -21,7 +21,7 @@ const AllListings = () => {
         </div>
         <div className="row">
           {data.map((movie) => (
-            <div className="col-md-4">
+            <div className="col-md-4" key={movie.id}>
               <br />
               <ListingMovie
                 key={movie.id}

@@ -52,8 +52,6 @@ const AboutUs = () => {
               </Card.Body>
             </Card>
             <br></br>
-            {/* </div> */}
-
             <Card style={{ width: "18rem" }} className="bg-dark drop-shadow">
               <Card.Body>
                 <Card.Img

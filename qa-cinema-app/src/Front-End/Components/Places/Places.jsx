@@ -13,7 +13,7 @@ const Places = () => {
     <React.Fragment>
       <Header></Header>
 <div className="container">
-        <div className="row-md" id="places-Header">
+        <div className="row-md" id="places-Header" >
           <hr id="hr" />
           <h1>Places To Go </h1>
           <hr id="hr" />
@@ -23,7 +23,7 @@ const Places = () => {
         </div>
         <div className="row">
           {data.map((places) => (
-            <div className="col-md-4">
+            <div className="col-md-4" key={places.id}>
               <br />
               <PlacesList
                 key={places.id}
@@ -32,7 +32,6 @@ const Places = () => {
                 description={places.description}
                 offers={places.offers}
                 contactDetails={places.contactDetails}
-                // venueType={places.venueType}
               />
             </div>
           ))}

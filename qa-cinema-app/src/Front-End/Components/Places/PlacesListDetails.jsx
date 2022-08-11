@@ -1,27 +1,26 @@
 import React, { useState, Fragment } from "react";
 import {
-    CardLink,
-    Modal,
-    ModalHeader,
-    ModalBody,
-    ModalFooter,
-  } from "reactstrap";
+  CardLink,
+  Modal,
+  ModalHeader,
+  ModalBody,
+  ModalFooter,
+} from "reactstrap";
 
-  const PlacesListDetails = ({
-    id,
-    poster,
-    name,
-    description,
-    offers,
-    contactDetails,
-    venueType,
-  }) => {
-    const [modal, setModal] = useState(false);
-    const toggle = () => setModal(!modal);
+const PlacesListDetails = ({
+  id,
+  poster,
+  name,
+  description,
+  offers,
+  contactDetails,
+}) => {
+  const [modal, setModal] = useState(false);
+  const toggle = () => setModal(!modal);
 
-    return (
+  return (
     <Fragment>
-         <CardLink className="btn btn-primary" onClick={toggle}>
+      <CardLink className="btn btn-primary" onClick={toggle}>
         {" "}
         Description
       </CardLink>
@@ -41,19 +40,11 @@ import {
 
               <div className="col-md-12">
                 <hr />
-                {/* <h5>Description</h5> */}
                 <h6 id="movie-director">{description}</h6>
                 <hr></hr>
                 <p id="movie-director">Contact Details {contactDetails}</p>
-                
-                {/* <h5>Venue Type: </h5> */}
                 <br></br>
-                {/* {contactDetails.map((contactDetail) => (
-                  <p id="movie-actor">{contactDetail}</p> */}
-                {/* ))} */}
-                
                 <hr></hr>
-                {/* <p id="places-venueType">Venue Type: {name}</p> */}
                 <p id="movie-director">Offers: {offers}</p>
               </div>
             </div>
@@ -66,8 +57,7 @@ import {
         </Modal>
       </div>
     </Fragment>
-);
-  };
+  );
+};
 
-
-  export default PlacesListDetails;
+export default PlacesListDetails;
