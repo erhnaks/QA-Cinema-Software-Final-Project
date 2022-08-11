@@ -23,7 +23,7 @@ function Search() {
             />
           </div>
         </div>
-        <div className="row d-flex justify-content-between mb-3">
+        <div className="row d-flex justify-content-row mb-3">
           <hr></hr>
           {data
             .filter((val) => {
@@ -37,24 +37,8 @@ function Search() {
             })
             .map((val) => {
               return (
-                // <div className="card-body col-2">
-                //   <div className="template" key={val.img}>
-                //     <img className="img" src={val.img} alt="" />
-                //     <h3>{val.title}</h3>
-                //     <hr></hr>
-                //     <p className="description">{val.description}</p>
-                //     <hr></hr>
-                //     <p>Actors :</p>
-                //     <p className="actors">{val.actors}</p>
-                //     <hr></hr>
-                //     <p className="director">Director : {val.director}</p>
-                //     <hr></hr>
-                //     <p className="runtime">Runtime : {val.runtime}</p>
-                //     <hr></hr>
-                //     <p className="rating">Rating : {val.rating}</p>
-                //   </div>
-                // </div>
-
+      
+                <div className="col-3">
                 <div class="card bg-dark mb-3" style={{width: "18rem"}}>
                   <img class="card-img-top" src={val.img} alt="pic" />
                     <div class="card-body">
@@ -66,6 +50,7 @@ function Search() {
                       <p className="card-text">Runtime : {val.runtime}</p>
                       <p className="card-text">Rating : {val.rating}</p>
                     </div>
+                </div>
                 </div>
               );
             })}
