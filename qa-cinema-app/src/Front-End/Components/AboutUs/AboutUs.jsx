@@ -98,7 +98,7 @@ const AboutUs = () => {
                   Development Team
                 </Card.Subtitle>
                 <Card.Text>
-                  <p>Muhammad enjoys football and travelling .</p>
+                  <p>Muhammad enjoys football and travelling.</p>
                 </Card.Text>
                 <Card.Link
                   href="https://github.com/MuhammadShayekurRahman"
