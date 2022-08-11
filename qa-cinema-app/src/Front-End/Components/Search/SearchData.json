@@ -7,7 +7,7 @@
     "showtime": "",
     "description": "The reluctant King of Atlantis is torn between his two homes as surface dwellers and the citizens of Atlantis collide.",
     "director": "James Wan",
-    "actors": ["Jason Mamoa", "Amber Heard", "Nicole Kidman", "Patrick Wilson"],
+    "actors": ["Jason Mamoa, ", "Amber Heard, ", "Nicole Kidman, ", "Patrick Wilson"],
     "id": "aqmv12345"
   },
 
@@ -19,7 +19,7 @@
     "showtime": "",
     "description": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
     "director": "Christopher Nolan",
-    "actors": ["Matthew McConaughey", "Anne Hathaway"],
+    "actors": ["Matthew McConaughey, ", "Anne Hathaway"],
     "id": "inmv12121"
   },
 
@@ -31,7 +31,7 @@
     "showtime": "",
     "description": "The defiant leader Moses rises up against Egyptian Pharaoh Ramses II, setting six hundred thousand slaves on a monumental journey of escape from Egypt and its terrifying cycle of deadly plagues.",
     "director": "Ridley Scott",
-    "actors": ["Adam Cooper", "Bill Collage"],
+    "actors": ["Adam Cooper, ", "Bill Collage"],
     "id": "exmv23232"
   },
 
@@ -43,7 +43,7 @@
     "showtime": "",
     "description": "An ancient struggle between two Cybertronian races, the heroic Autobots and the evil Decepticons, comes to Earth, with a clue to the ultimate power held by a teenager.",
     "director": "Michael Bay",
-    "actors": ["Shia LeBeouf", "Megan Fox", "Josh Duhamel"],
+    "actors": ["Shia LeBeouf, ", "Megan Fox, ", "Josh Duhamel"],
     "id": "trmv34343"
   },
 
@@ -55,7 +55,7 @@
     "showtime": "",
     "description": "After his son is captured in the Great Barrier Reef and taken to Sydney, a timid clownfish sets out on a journey to bring him home.",
     "director": "Andrew Stanton",
-    "actors": ["Albert Brooks", "Ellen DeGeneres", "Alexander Gould"],
+    "actors": ["Albert Brooks, ", "Ellen DeGeneres, ", "Alexander Gould"],
     "id": "fimv45454"
   },
 
@@ -67,7 +67,7 @@
     "showtime": "",
     "description": "A mean lord exiles fairytale creatures to the swamp of a grumpy ogre, who must go on a quest and rescue a princess for the lord in order to get his land back.",
     "director": "Andrew Adamson",
-    "actors": ["Mike Myers", "Eddie Murphy", "Cameron Diaz"],
+    "actors": ["Mike Myers, ", "Eddie Murphy, ", "Cameron Diaz"],
     "id": "shmv89898"
   },
 
@@ -79,7 +79,7 @@
     "showtime": "",
     "description": "The nation of Wakanda is pitted against intervening world powers as they mourn the loss of their king T'Challa.",
     "director": "Ryan Coogler",
-    "actors": ["Letitia Wright", "Lupita Nyongo'o", "Danai Gurira"],
+    "actors": ["Letitia Wright, ", "Lupita Nyongo'o, ", "Danai Gurira"],
     "id": "blmv13131"
   },
 
@@ -91,7 +91,7 @@
     "showtime": "",
     "description": "Shazam and his newly formed team must come together to face a new threat .",
     "director": "David F. Sandberg",
-    "actors": ["Grace Caroline Currey", "Zachary Levi", "Helen Mirren"],
+    "actors": ["Grace Caroline Currey, ", "Zachary Levi, ", "Helen Mirren"],
     "id": "shmv14141"
   },
 
@@ -103,7 +103,7 @@
     "showtime": "",
     "description": "Jake Sully lives with his newfound family formed on the planet of Pandora. Once a familiar threat returns to finish what was previously started, Jake must work with Neytiri and the army of the Na'vi race to protect their planet.",
     "director": "James Cameron",
-    "actors": ["Michelle Yeoh", "Zoe Saldana", "Kate Winslet"],
+    "actors": ["Michelle Yeoh, ", "Zoe Saldana, ", "Kate Winslet"],
     "id": "avmv15151"
   },
 
@@ -115,7 +115,7 @@
     "showtime": "",
     "description": "The residents of a lonely gulch in inland California bear witness to an uncanny and chilling discovery.",
     "director": "Jordan Peele",
-    "actors": ["Daniel Kaluuya", "Keke Palmer", "Brandon Perea"],
+    "actors": ["Daniel Kaluuya, ", "Keke Palmer, ", "Brandon Perea"],
     "id": "nomv16161"
   },
 
@@ -127,7 +127,7 @@
     "showtime": "",
     "description": "A sequel to the 2019 film Knives Out",
     "director": "Rian Johnson",
-    "actors": ["Daniel Craig", "Jessica Henwick", "Ethan Hawke"],
+    "actors": ["Daniel Craig, ", "Jessica Henwick, ", "Ethan Hawke"],
     "id": "glmv17171"
   },
 
@@ -139,7 +139,7 @@
     "showtime": "",
     "description": "Nearly 5000 years after he was bestowed with the almighty powers of the Egyptian gods and imprisoned just as quickly, Black Adam (Johnson) is freed from his earthly tomb, ready to unleash his unique form of justice on the modern world.",
     "director": "Jaume Collet-Serra",
-    "actors": ["Dwayne Johnson", "Sarah Shahi", "Viola Davis"],
+    "actors": ["Dwayne Johnson, ", "Sarah Shahi, ", "Viola Davis"],
     "id": "blmv18181"
   }
 ]
