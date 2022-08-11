@@ -15,7 +15,7 @@ const GettingThere = () => {
             <br></br>
 
             <div className="row d-flex justify-content-around">
-            <div className="card col-5 p-4 drop-shadow">
+            <div className="card bg-dark col-5 p-4 drop-shadow">
             {/* External Cinema Image  */}
             <h3 class="text-center">Spend your night at QA Cinema</h3>
             <br></br>
@@ -24,7 +24,7 @@ const GettingThere = () => {
 
             <br></br>
             
-          <div className="card col-6 p-3 drop-shadow">
+          <div className="card bg-dark col-6 p-3 drop-shadow">
             {/* Getting There */}
             <h2 class="text-center">Getting there by Train:</h2>
             <hr />
@@ -50,7 +50,7 @@ const GettingThere = () => {
           <br></br>
 
           <div className="row d-flex justify-content-around">
-          <div className="card col-6 p-4 drop-shadow" id="qa-location">
+          <div className="card bg-dark col-6 p-4 drop-shadow" id="qa-location">
             {/* Location */}
             <h3>Where to Find Us</h3>
             International House, 1 St Katharine's Way, London E1W 1UN
@@ -71,7 +71,7 @@ const GettingThere = () => {
             </div>
             </div>
 
-            <div className="card col-5 p-3 drop-shadow">
+            <div className="card bg-dark col-5 p-3 drop-shadow">
             {/* Car Park Image  */}
             <h3 class="text-center">Free Parking Available</h3>
             <br></br>
