@@ -34,7 +34,7 @@ import {
         >
           <ModalHeader id="places-modal-header">{name}</ModalHeader>
           <ModalBody id="places-modal-body">
-            <div class="row-md">
+            <div className="row-md">
               <div className="col-md-12" id="modal-image">
                 <img src={poster} alt={name} width="30%" height="30%" />
               </div>
