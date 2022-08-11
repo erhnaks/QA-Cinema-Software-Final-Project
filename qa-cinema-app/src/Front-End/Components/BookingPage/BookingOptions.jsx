@@ -4,9 +4,9 @@ import data from "../../../Resources/data/movie.json";
 export const BookingOptions = (props) => {
     return (
         <>
-            {data.map((movie)=>{
+            {data.map((movie, i)=>{
                 return (
-                    <option value={movie.id}>{movie.title}</option>
+                    <option value={movie.id} key={i}>{movie.title}</option>
                 )
             })}
         </>
