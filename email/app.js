@@ -72,7 +72,7 @@ app.post("/send", (req, res) => {
     console.log("Preview URL: %s", nodemailer.getTestMessageUrl(info));
 
     res.render("contact", {
-      msg: "Email has been sent, we will get back to you as soon as possible.",
+      msg: "Email has been sent, we will get back to you as soon as possible. You can close this window now.",
     });
   });
 });
