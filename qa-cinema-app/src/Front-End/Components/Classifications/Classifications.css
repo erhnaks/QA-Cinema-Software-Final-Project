@@ -1,0 +1,33 @@
+.accordion-button {
+  background-color: rgba(0, 48, 121, 0.699) !important;
+}
+
+.accordion-button:focus {
+  box-shadow: #1a7f98;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #4c3a3a;
+}
+
+.p-tag {
+  font-weight: bold;
+  font-size: larger;
+  color: #ffffff;
+  font-style: italic;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.h1-classifications {
+  font-weight: bolder;
+  color: #ffffff;
+  font-style: italic;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.h5-tag {
+  font-weight: bolder;
+  color: #ffffff;
+  font-style: italic;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
