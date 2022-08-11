@@ -49,12 +49,23 @@ const ListingMovieDetails = ({
                 <h5 id="movie-director">Starring: </h5>
                 <br></br>
                 {actors.map((actor) => (
-                  <p className="text-dark" id="movie-actor">{actor}</p>
+                  <p className="text-dark" id="movie-actor">
+                    {actor}
+                  </p>
                 ))}
                 <br />
                 <hr></hr>
-                <p className="text-dark" id="movie-runtime">Runtime: {runtime}</p>
-                <p className="text-dark" id="movie-rating">Rating: {rating}</p>
+                <p className="text-dark" id="movie-runtime">
+                  Runtime: {runtime}
+                </p>
+                <hr></hr>
+                <p className="text-dark" id="movie-rating">
+                  Show Time: {showtime}
+                </p>
+                <hr></hr>
+                <p className="text-dark" id="movie-rating">
+                  Rating: {rating}
+                </p>
               </div>
             </div>
           </ModalBody>
