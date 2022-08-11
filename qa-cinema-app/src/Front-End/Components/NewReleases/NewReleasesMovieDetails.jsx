@@ -13,7 +13,6 @@ const NewReleasesMovieDetails = ({
   runtime,
   rating,
   poster,
-  showtime,
   description,
   director,
   actors,
@@ -48,13 +47,19 @@ const NewReleasesMovieDetails = ({
                 <p id="movie-director">Directed By {director}</p>
                 <h5 id="movie-director">Starring: </h5>
                 <br></br>
-                {actors.map((actor) => (
-                  <p className="text-dark" id="movie-actor">{actor}</p>
+                {actors.map((actor, i) => (
+                  <p className="text-dark" id="movie-actor" key={i}>
+                    {actor}
+                  </p>
                 ))}
                 <br />
                 <hr></hr>
-                <p className="text-dark" id="movie-runtime">Runtime: {runtime}</p>
-                <p className="text-dark" id="movie-rating">Rating: {rating}</p>
+                <p className="text-dark" id="movie-runtime">
+                  Runtime: {runtime}
+                </p>
+                <p className="text-dark" id="movie-rating">
+                  Rating: {rating}
+                </p>
               </div>
             </div>
           </ModalBody>

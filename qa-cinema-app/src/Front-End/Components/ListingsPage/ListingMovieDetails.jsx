@@ -48,8 +48,8 @@ const ListingMovieDetails = ({
                 <p id="movie-director">Directed By {director}</p>
                 <h5 id="movie-director">Starring: </h5>
                 <br></br>
-                {actors.map((actor) => (
-                  <p className="text-dark" id="movie-actor">
+                {actors.map((actor, i) => (
+                  <p className="text-dark" id="movie-actor" key={i}>
                     {actor}
                   </p>
                 ))}
