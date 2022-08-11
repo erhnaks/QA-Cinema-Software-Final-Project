@@ -21,8 +21,8 @@ const NewReleases = () => {
           </p>
         </div>
         <div className="row">
-          {data.map((movie) => (
-            <div className="col-md-4">
+          {data.map((movie, i) => (
+            <div className="col-md-4" key={i}>
               <br />
               <NewReleasesMovies
                 key={movie.id}

@@ -35,10 +35,10 @@ function Search() {
                 return val;
               }
             })
-            .map((val) => {
+            .map((val, i) => {
               return (
       
-                <div className="col-3">
+                <div className="col-3" key={i}>
                 <div className="card bg-dark mb-3" style={{width: "18rem"}}>
                   <img className="card-img-top" src={val.img} alt="pic" />
                     <div className="card-body">

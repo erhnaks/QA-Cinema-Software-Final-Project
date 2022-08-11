@@ -3,7 +3,7 @@ import ListingDetails from "../ListingsPage/ListingMovieDetails";
 
 const ListingMovie = (props) => {
   return (
-    <Card id="ListingMovie-card">
+    <Card id="ListingMovie-card" key={props.id}>
       <CardImg src={props.poster} id="ListingMovie-card-img" />
       <CardBody>
         <CardTitle id="ListingMovie-title">
@@ -15,7 +15,7 @@ const ListingMovie = (props) => {
           <p>Rating: {props.rating}</p>
         </CardSubtitle>
         <hr />
-        <div className="col-md-12">
+        <div className="col-md-12" key={props.id}>
           <ListingDetails
             id={props.id}
             title={props.title}

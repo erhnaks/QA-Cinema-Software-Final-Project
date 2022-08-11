@@ -79,7 +79,7 @@ const Booking = () => {
                 onChange={handleMovie}
                 id="movie"
               >
-                <option disabled selected value></option>
+                <option disabled value={'selected'}></option>
                 <BookingOptions></BookingOptions>
               </select>
             </div>
@@ -92,7 +92,7 @@ const Booking = () => {
                 onChange={handleTime}
                 id="showing"
               >
-                <option disabled selected value></option>
+                <option disabled value={'selected'}></option>
                 <option value="12:00">12:00</option>
                 <option value="15:00">15:00</option>
                 <option value="18:00">18:00</option>
@@ -107,7 +107,7 @@ const Booking = () => {
                 onChange={handleTicketPrice}
                 id="ticket"
               >
-                <option disabled selected value></option>
+                <option disabled value={'selected'}  ></option>
                 <option value="10.00">Adult £10</option>
                 <option value="5.00">Child £5</option>
                 <option value="7.00">Concession £7</option>

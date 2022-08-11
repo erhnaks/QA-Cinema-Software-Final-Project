@@ -3,7 +3,7 @@ import PlacesListDetails from "./PlacesListDetails";
 
 const PlacesList = (props) => {
   return (
-    <Card id="PlacesList-card">
+    <Card id="PlacesList-card" key={props.id}>
       <CardImg src={props.poster} id="PlacesList-card-img" />
       <CardBody>
         <CardTitle id="PlacesList-title">
@@ -15,15 +15,14 @@ const PlacesList = (props) => {
           {/* <p>Venue Type: {props.venueType}</p> */}
         </CardSubtitle>
         <hr />
-        <div className="col-md-12">
+        <div className="col-md-12" key={props.id}>
             <PlacesListDetails
-             id={props.id}
-             name={props.name}
-             poster={props.poster}
-             description={props.description}
-             offers={props.offers}
-             contactDetails={props.contactDetails}
-            //  venueType={props.venueType}
+            id={props.id}
+            name={props.name}
+            poster={props.poster}
+            description={props.description}
+            offers={props.offers}
+            contactDetails={props.contactDetails}
           />
         </div>
       </CardBody>

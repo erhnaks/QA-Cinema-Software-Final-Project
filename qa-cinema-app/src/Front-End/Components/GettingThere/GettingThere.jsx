@@ -62,10 +62,10 @@ const GettingThere = () => {
                 id="gmap_canvas"
                 src="https://maps.google.com/maps?q=e1w1UN&t=&z=15&ie=UTF8&iwloc=&output=embed"
                 alt="Map"
-                frameborder="0"
+                frameBorder="0"
                 scrolling="no"
-                marginheight="0"
-                marginwidth="0"
+                marginHeight="0"
+                marginWidth="0"
                 title="Location"
               ></iframe>
             </div>

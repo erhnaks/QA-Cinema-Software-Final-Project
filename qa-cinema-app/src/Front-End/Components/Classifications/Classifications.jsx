@@ -15,7 +15,7 @@ const Classifications = () => {
     <React.Fragment>
       <Header></Header>
 
-      <body>
+      
         <div className="container-fluid" id="screensContainer">
         <h1 className="h1-classifications">Classifications</h1>
 
@@ -150,7 +150,7 @@ const Classifications = () => {
           </Accordion.Item>
         </Accordion>
 
-      </body>
+      
       <Footer></Footer>
     </React.Fragment>
   );

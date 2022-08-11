@@ -40,7 +40,6 @@
   line-height: 0%;
 }
 
-
 #ListingMovie-card-img {
   height: 350px;
   width: 255px;
@@ -54,7 +53,6 @@
   height: 600px;
   width: 260px;
 }
-
 
 #ListingMovie-title {
   text-transform: uppercase;
@@ -74,7 +72,6 @@ hr {
 }
 
 .card-body p {
-  /* color: rgb(12, 12, 12); */
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   font-style: italic;
