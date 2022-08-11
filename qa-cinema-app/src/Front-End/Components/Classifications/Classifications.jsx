@@ -34,7 +34,7 @@ const Classifications = () => {
             rel="noreferrer"
             href="http://www.bbfc.co.uk/"
             target="_blank"
-            class="externalLink ActivLink"
+            className="externalLink ActivLink"
             data-treelink="0"
             data-documentlink="0"
             data-urllink="1"

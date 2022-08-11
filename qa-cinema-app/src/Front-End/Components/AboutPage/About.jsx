@@ -16,14 +16,14 @@ const AboutPage = () => {
         <h1>About Us</h1>
 
         <div>
-          <figure class="text-center">
-            <blockquote class="blockquote">
+          <figure className="text-center">
+            <blockquote className="blockquote">
               <p>
                 Take a seat in the clouds at QA Cinema Club, Join us now for an
                 experience you will never forget...
               </p>
             </blockquote>
-            <figcaption class="blockquote-footer">
+            <figcaption className="blockquote-footer">
               Team <cite title="Source Title">Foxtrot</cite>
             </figcaption>
           </figure>
@@ -66,31 +66,31 @@ const AboutPage = () => {
         </div>
         <div id="reviews">
           {/* Reviews */}
-          <div class="container mt-3 mb-4">
-            <div class="row">
+          <div className="container mt-3 mb-4">
+            <div className="row">
               <h2>Reviews</h2>
               <hr />
-              <div class="col-md-4">
-                <div class="card p-3 bg-dark text-white">
+              <div className="col-md-4">
+                <div className="card p-3 bg-dark text-white">
                   <p>
                     Wowww! What a beautiful cinema, Loved the location and the
                     ease of access. The staff were very friendly and I can't
                     wait to go back.
                   </p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="user-about">
+                  <div className="d-flex justify-content-between align-items-center">
+                    <div className="user-about">
                       {" "}
-                      <span class="font-weight-bold d-block">
+                      <span className="font-weight-bold d-block">
                         Alex Smith
                       </span>{" "}
-                      <span class="u-color">Teacher</span>
+                      <span className="u-color">Teacher</span>
                       <h3 className="star-rating">★★★★★</h3>
                     </div>
-                    <div class="user-image">
+                    <div className="user-image">
                       {" "}
                       <img
                         src="https://i.imgur.com/UUW3zLx.jpg"
-                        class="rounded-circle"
+                        className="rounded-circle"
                         width="70"
                         alt="user"
                       />{" "}
@@ -98,27 +98,27 @@ const AboutPage = () => {
                   </div>
                 </div>
               </div>
-              <div class="col-md-4">
-                <div class="card p-3 bg-dark text-white">
+              <div className="col-md-4">
+                <div className="card p-3 bg-dark text-white">
                   <p>
                     Now this is what im talking about, good cinema, good food,
                     and an amazing team. I truly felt at home sitting in those
                     luxurious seats, can not wait to be back!
                   </p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="user-about">
+                  <div className="d-flex justify-content-between align-items-center">
+                    <div className="user-about">
                       {" "}
-                      <span class="font-weight-bold d-block">
+                      <span className="font-weight-bold d-block">
                         Sophia T.
                       </span>{" "}
-                      <span class="u-color">Mum</span>
+                      <span className="u-color">Mum</span>
                       <h3 className="star-rating">★★★★★</h3>
                     </div>
-                    <div class="user-image">
+                    <div className="user-image">
                       {" "}
                       <img
                         src="https://i.imgur.com/o5uMfKo.jpg"
-                        class="rounded-circle"
+                        className="rounded-circle"
                         width="70"
                         alt="user"
                       />{" "}
@@ -126,26 +126,26 @@ const AboutPage = () => {
                   </div>
                 </div>
               </div>
-              <div class="col-md-4">
-                <div class="card p-3 bg-dark text-white">
+              <div className="col-md-4">
+                <div className="card p-3 bg-dark text-white">
                   <p>
                     The vibe was amazing! Queues were a bit long but
                     understandable! This is THE go to cinema in London{" "}
                   </p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="user-about">
+                  <div className="d-flex justify-content-between align-items-center">
+                    <div className="user-about">
                       {" "}
-                      <span class="font-weight-bold d-block">
+                      <span className="font-weight-bold d-block">
                         Michael Scott
                       </span>{" "}
-                      <span class="u-color">Regional Manager</span>
+                      <span className="u-color">Regional Manager</span>
                       <h3 className="star-rating">★★★★☆</h3>
                     </div>
-                    <div class="user-image">
+                    <div className="user-image">
                       {" "}
                       <img
                         src="https://cdn.justjared.com/wp-content/uploads/headlines/2020/06/steve-carell-bob-odenkirk.jpg"
-                        class="rounded-circle"
+                        className="rounded-circle"
                         width="70"
                         alt="user"
                       />{" "}

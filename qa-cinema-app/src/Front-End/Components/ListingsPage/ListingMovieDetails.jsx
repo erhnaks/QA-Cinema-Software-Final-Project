@@ -36,7 +36,7 @@ const ListingMovieDetails = ({
         >
           <ModalHeader id="movie-modal-header">{title}</ModalHeader>
           <ModalBody id="movie-modal-body">
-            <div class="row-md">
+            <div className="row-md">
               <div className="col-md-12" id="modal-image">
                 <img src={poster} alt={title} width="30%" height="30%" />
               </div>
@@ -49,12 +49,23 @@ const ListingMovieDetails = ({
                 <h5 id="movie-director">Starring: </h5>
                 <br></br>
                 {actors.map((actor) => (
-                  <p className="text-dark" id="movie-actor">{actor}</p>
+                  <p className="text-dark" id="movie-actor">
+                    {actor}
+                  </p>
                 ))}
                 <br />
                 <hr></hr>
-                <p className="text-dark" id="movie-runtime">Runtime: {runtime}</p>
-                <p className="text-dark" id="movie-rating">Rating: {rating}</p>
+                <p className="text-dark" id="movie-runtime">
+                  Runtime: {runtime}
+                </p>
+                <hr></hr>
+                <p className="text-dark" id="movie-rating">
+                  Show Time: {showtime}
+                </p>
+                <hr></hr>
+                <p className="text-dark" id="movie-rating">
+                  Rating: {rating}
+                </p>
               </div>
             </div>
           </ModalBody>
